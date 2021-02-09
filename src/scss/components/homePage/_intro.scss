@@ -3,11 +3,41 @@
   height: 140%;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  padding-right: 2%;
+  align-items: flex-start;
+  padding-right: 1%;
 
   img {
+    z-index: 0;
+    width: 80%;
     height: 100%;
     object-fit: contain;
+    object-position: right;
   }
+}
+
+.homepage-intro-title-container {
+  z-index: 1;
+  width: 20%;
+  padding-left: 3%;
+  padding-top: 10%;
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  color: #4fc49b;
+}
+
+.homepage-intro-title {
+  width: 300%;
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 4.5rem;
+  text-shadow: 2px 2px 6px #ebebeb;
+}
+
+.homepage-intro-subtitle {
+  width: 200%;
+  margin-top: 5%;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  line-height: 1.7rem;
 }
