@@ -1,9 +1,13 @@
 import React from 'react';
 import classNames from 'classnames';
 
-const GeneralLayout: React.FC = () => (
+interface IProps {
+  children: React.ReactNode;
+}
+
+const GeneralLayout: React.FC<IProps> = ({ children }) => (
   <main className={classNames('general-layout')}>
-    general layout
+    {children}
   </main>
 );
 
