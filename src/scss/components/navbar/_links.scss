@@ -1,0 +1,17 @@
+.navbar-links {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    color: #4d4d4d;
+
+    &.selected {
+      color: #50b58e;
+      font-weight: bolder;
+    }
+  }
+}
