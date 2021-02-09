@@ -1,25 +1,15 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+import NavLink from './link';
 
 const Links: React.FC = () => (
-  <ul className={classNames('navbar-links')}>
-    <Link to="/">
-      <li>Home</li>
-    </Link>
-    <Link to="/work">
-      <li>Our Works</li>
-    </Link>
-    <Link to="/advisor">
-      <li>Advisor</li>
-    </Link>
-    <Link to="/member">
-      <li>Members</li>
-    </Link>
-    <Link to="/contact">
-      <li>Contact Us</li>
-    </Link>
-  </ul>
+  <div className={classNames('navbar-links')}>
+    <NavLink path="/" name="Home" />
+    <NavLink path="/work" name="Our Works" />
+    <NavLink path="/advisor" name="Advisor" />
+    <NavLink path="/member" name="Members" />
+    <NavLink path="/contact" name="Contact Us" />
+  </div>
 );
 
 export default Links;

@@ -1,5 +1,4 @@
 .navbar-links {
-  border: red solid 1px;
   width: 50%;
   height: 100%;
   display: flex;
@@ -9,5 +8,10 @@
 
   a {
     color: #4d4d4d;
+
+    &.selected {
+      color: #50b58e;
+      font-weight: bolder;
+    }
   }
 }
