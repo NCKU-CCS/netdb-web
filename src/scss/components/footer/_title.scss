@@ -1,16 +1,15 @@
 .footer-title {
   grid-row-start: 1;
   grid-row-end: 3;
-  display: flex;
-  align-items: center;
-  padding-left: 9%;
-  border: red solid 1px;
+  padding-top: 3%;
+  padding-left: 7.5%;
+  // border: red solid 1px;
 
   img {
-    width: 53%;
-    height: 25%;
+    width: 38%;
+    height: 27%;
     object-fit: contain;
     object-position: left;
-    border: red solid 1px;
+    // border: red solid 1px;
   }
 }
