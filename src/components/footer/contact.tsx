@@ -5,11 +5,13 @@ const Contact: React.FC = () => (
   <div className={classNames('footer-contact')}>
     <div className={classNames('footer-contact-item')}>
       <img alt="mail" src={`${process.env.PUBLIC_URL}/footer/mail.png`} />
-      <div>netdb@netdb.csie.ncku.edu.tw</div>
+      <a href="mailto:netdb@netdb.csie.ncku.edu.tw">
+        netdb@netdb.csie.ncku.edu.tw
+      </a>
     </div>
     <div className={classNames('footer-contact-item')}>
       <img alt="mail" src={`${process.env.PUBLIC_URL}/footer/phone.png`} />
-      <div>+886-6-2757575 ext. 62520 # 2608</div>
+      <a href="tel:+886-6-2757575">+886-6-2757575 ext. 62520 # 2608</a>
     </div>
   </div>
 );

@@ -1,9 +1,12 @@
 .footer-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-size: 0.8rem;
+  padding-top: 5%;
+  padding-right: 7%;
+  padding-left: 7%;
 
   a {
     color: #4d4d4d;
