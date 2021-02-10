@@ -1,9 +1,12 @@
 .footer-contact {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   color: #999990;
   font-size: 0.8rem;
+  padding-bottom: 1%;
+  padding-right: 7%;
+  padding-left: 20%;
 
   img {
     width: 20%;
@@ -19,6 +22,6 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  width: 43%;
+  width: 50%;
   height: 50%;
 }

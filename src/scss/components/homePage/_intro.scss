@@ -23,7 +23,6 @@
   display: flex;
   height: 90vh;
   flex-direction: column;
-  color: #4fc49b;
 }
 
 .homepage-intro-title {
@@ -31,7 +30,14 @@
   font-size: 4rem;
   font-weight: bolder;
   line-height: 4.5rem;
-  text-shadow: 2px 2px 6px #ebebeb;
+  background: linear-gradient(
+      to right,
+      #4fc49b,
+      #59d9ac
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .homepage-intro-subtitle {
@@ -40,4 +46,5 @@
   font-size: 1.2rem;
   font-weight: bolder;
   line-height: 1.7rem;
+  color: #4fc49b;
 }
