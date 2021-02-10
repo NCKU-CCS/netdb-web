@@ -12,7 +12,10 @@ const Intro: React.FC = () => (
         science to facilitate society
       </div>
     </div>
-    <img alt="intro" src={`${process.env.PUBLIC_URL}/homePage/intro.png`} />
+    <img
+      alt="intro"
+      src={`${process.env.PUBLIC_URL}/homePage/intro/intro.png`}
+    />
   </div>
 );
 
