@@ -1,9 +1,10 @@
 import React from 'react';
+import Info from './info';
 import Map from './map';
 
 const ContactPageContainer: React.FC = () => (
   <>
-    contact page
+    <Info />
     <Map />
   </>
 );
