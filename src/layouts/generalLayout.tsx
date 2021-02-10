@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
-import NavBar from '../components/navbar';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 interface IProps {
   children: React.ReactNode;
@@ -8,8 +9,9 @@ interface IProps {
 
 const GeneralLayout: React.FC<IProps> = ({ children }) => (
   <main className={classNames('general-layout')}>
-    <NavBar />
+    <Navbar />
     {children}
+    <Footer />
   </main>
 );
 
