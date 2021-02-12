@@ -14,6 +14,7 @@ const Intro: React.FC = () => {
         className={classNames('homepage-intro-title-container')}
         data-aos="fade-right"
         data-aos-easing="ease-in"
+        data-aos-duration="1000"
       >
         <div className={classNames('homepage-intro-title')}>
           Delivering innovation from data
@@ -28,6 +29,7 @@ const Intro: React.FC = () => {
         src={`${process.env.PUBLIC_URL}/homePage/intro/intro.png`}
         data-aos="fade-left"
         data-aos-easing="ease-in"
+        data-aos-duration="1000"
       />
     </div>
   );

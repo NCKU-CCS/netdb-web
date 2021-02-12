@@ -13,7 +13,7 @@ const Partner: React.FC = () => {
       className={classNames('homepage-partner')}
       data-aos="fade-up"
       data-aos-easing="ease-in"
-      data-aos-delay="500"
+      data-aos-duration="500"
     >
       Partnership
       <div className={classNames('homepage-partner-img-container')}>
