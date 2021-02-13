@@ -5,9 +5,7 @@ const Application: React.FC = () => (
   <div
     className={classNames('homepage-application')}
     data-aos="fade-up"
-    data-aos-easing="ease-in"
-    data-aos-duration="500"
-    data-aos-once="true"
+    data-aos-offset="300"
   >
     <img
       alt="application"

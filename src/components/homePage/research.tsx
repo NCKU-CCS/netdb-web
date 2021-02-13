@@ -4,14 +4,7 @@ import Domain from './domain';
 
 const Research: React.FC = () => (
   <div className={classNames('homepage-research')}>
-    <div
-      data-aos="fade-up"
-      data-aos-easing="ease-in"
-      data-aos-duration="500"
-      data-aos-once="true"
-    >
-      Research Domain
-    </div>
+    <div data-aos="fade-up">Research Domain</div>
     <div className={classNames('homepage-research-domain-container')}>
       <Domain
         imgName="data-science"

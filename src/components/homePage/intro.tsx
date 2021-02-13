@@ -22,9 +22,7 @@ const Intro: React.FC = () => (
       alt="intro"
       src={`${process.env.PUBLIC_URL}/homePage/intro/intro.png`}
       data-aos="fade-left"
-      data-aos-easing="ease-in"
       data-aos-duration="1000"
-      data-aos-once="true"
     />
   </div>
 );

@@ -2,13 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 
 const Service: React.FC = () => (
-  <div
-    className={classNames('homepage-service')}
-    data-aos="fade-up"
-    data-aos-easing="ease-in"
-    data-aos-duration="500"
-    data-aos-once="true"
-  >
+  <div className={classNames('homepage-service')} data-aos="fade-up">
     <div className={classNames('homepage-service-text')}>
       <h3>Quality-of-Life as a Service</h3>
       <p>

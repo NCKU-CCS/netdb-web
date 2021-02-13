@@ -2,13 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 
 const Partner: React.FC = () => (
-  <div
-    className={classNames('homepage-partner')}
-    data-aos="fade-up"
-    data-aos-easing="ease-in"
-    data-aos-duration="500"
-    data-aos-once="true"
-  >
+  <div className={classNames('homepage-partner')} data-aos="fade-up">
     Partnership
     <div className={classNames('homepage-partner-img-container')}>
       <img
