@@ -15,6 +15,7 @@ const Intro: React.FC = () => {
         data-aos="fade-right"
         data-aos-easing="ease-in"
         data-aos-duration="1000"
+        data-aos-once="true"
       >
         <div className={classNames('homepage-intro-title')}>
           Delivering innovation from data
@@ -30,6 +31,7 @@ const Intro: React.FC = () => {
         data-aos="fade-left"
         data-aos-easing="ease-in"
         data-aos-duration="1000"
+        data-aos-once="true"
       />
     </div>
   );

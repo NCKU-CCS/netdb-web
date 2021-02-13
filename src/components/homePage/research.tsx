@@ -11,7 +11,12 @@ const Research: React.FC = () => {
 
   return (
     <div className={classNames('homepage-research')}>
-      <div data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="500">
+      <div
+        data-aos="fade-up"
+        data-aos-easing="ease-in"
+        data-aos-duration="500"
+        data-aos-once="true"
+      >
         Research Domain
       </div>
       <div className={classNames('homepage-research-domain-container')}>

@@ -14,6 +14,7 @@ const Service: React.FC = () => {
       data-aos="fade-up"
       data-aos-easing="ease-in"
       data-aos-duration="500"
+      data-aos-once="true"
     >
       <div className={classNames('homepage-service-text')}>
         <h3>Quality-of-Life as a Service</h3>

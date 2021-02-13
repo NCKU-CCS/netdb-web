@@ -20,6 +20,7 @@ const Domain: React.FC<IProps> = ({ imgName, title, content }) => {
       data-aos="fade-up"
       data-aos-easing="ease-in"
       data-aos-duration="500"
+      data-aos-once="true"
     >
       <img
         alt={imgName}
