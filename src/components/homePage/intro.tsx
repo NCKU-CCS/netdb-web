@@ -6,9 +6,7 @@ const Intro: React.FC = () => (
     <div
       className={classNames('homepage-intro-title-container')}
       data-aos="fade-right"
-      data-aos-easing="ease-in"
       data-aos-duration="1000"
-      data-aos-once="true"
     >
       <div className={classNames('homepage-intro-title')}>
         Delivering innovation from data
