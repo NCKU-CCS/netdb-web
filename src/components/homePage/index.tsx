@@ -12,7 +12,7 @@ const HomePageContainer = () => (
     <Partner />
     <Research />
     <div className={classNames('homepage-application-and-service-title')}>
-      Application & Service
+      Application ＆ Service
     </div>
     <Service />
     <Application />

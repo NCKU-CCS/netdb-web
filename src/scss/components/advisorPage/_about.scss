@@ -81,6 +81,10 @@
     justify-content: flex-start;
     align-items: center;
 
+    &:hover {
+      color: #4d4d4d;
+    }
+
     img {
       width: 1.3rem;
       height: 1.3rem;
