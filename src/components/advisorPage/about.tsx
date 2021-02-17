@@ -25,7 +25,21 @@ const About: React.FC = () => (
       />
     </div>
     <div className={classNames('advisorpage-about-bottom-container')}>
-      About me
+      <h4>About me</h4>
+      <p>
+        Kun-Ta Chuang currently serves as an assistant professor in Department
+        of Computer Science and Information Engineering in National Cheng Kung
+        University.
+        <br />
+        He was a senior engineer at EDA giant Synopsys during 2006-2011.
+        <br />
+        He received the Ph.D. degree from Graduate Institute of Communication
+        Engineering, National Taiwan University, Taipei, Taiwan in 2006.
+        <br />
+        His research interests include data mining, web technology, mobile data
+        management, and cloud computing.
+        <br />
+      </p>
     </div>
   </div>
 );
