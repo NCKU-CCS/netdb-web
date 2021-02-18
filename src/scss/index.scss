@@ -1,6 +1,5 @@
 // abstracts
-@import './abstracts/mixins';
-@import './abstracts/variables';
+@import './abstracts/';
 
 // base
 @import './base/';
@@ -9,4 +8,4 @@
 @import './components/navbar/';
 @import './components/footer/';
 @import './components/homePage/';
-@import './components//advisorPage/';
+@import './components/advisorPage/';
