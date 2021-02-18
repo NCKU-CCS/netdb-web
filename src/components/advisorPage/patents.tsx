@@ -2,14 +2,10 @@ import React from 'react';
 import classNames from 'classnames';
 
 const Patents: React.FC = () => (
-  <div className={classNames('advisorpage-patents')}>
-    <h3 className={classNames('advisorpage-patents-title')}>
-      Patents ＆ Publications
-    </h3>
-    <section className={classNames('advisorpage-patents-content-container')}>
-      <h4 className={classNames('advisorpage-patents-content-title')}>
-        Patents
-      </h4>
+  <div className={classNames('advisorpage-patents-container')}>
+    <h3>Patents ＆ Publications</h3>
+    <section>
+      <h4>Patents</h4>
       <div>
         I537756 藉由快照來快速擴展關聯式資料庫之系統及其方法, 台灣, 陳泊亨,
         莊坤達
@@ -19,10 +15,8 @@ const Patents: React.FC = () => (
         莊坤達, 李高丞, 李彥寬
       </div>
     </section>
-    <section className={classNames('advisorpage-patents-content-container')}>
-      <h4 className={classNames('advisorpage-patents-content-title')}>
-        Publications
-      </h4>
+    <section>
+      <h4>Publications</h4>
       <h5>Accepted Papers to be Published</h5>
       <div>
         1. Chi-Chun Lin, Kun-Ta Chuang, Wush Chi-Hsuan Wu, Ming-Syan Chen
