@@ -11,13 +11,6 @@
     color: $text-default;
   }
 
-  > h4 {
-    font-size: 1.5rem;
-    line-height: 3rem;
-    font-weight: bold;
-    color: $text-default;
-  }
-
   > section {
     @include flex(column, space-between, flex-start);
     margin-bottom: 1rem;
@@ -25,6 +18,13 @@
     font-size: 1.1rem;
     line-height: 1.9rem;
     color: $text-default;
+
+    > h4 {
+      font-size: 1.5rem;
+      line-height: 3rem;
+      font-weight: bold;
+      color: $text-default;
+    }
 
     > h5 {
       font-weight: bold;

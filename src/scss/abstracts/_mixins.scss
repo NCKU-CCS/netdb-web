@@ -1,3 +1,4 @@
+// display flex setup
 @mixin flex($direction, $justify-content, $align-items) {
   display: flex;
   flex-direction: $direction;
