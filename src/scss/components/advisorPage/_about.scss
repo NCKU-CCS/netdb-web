@@ -1,96 +1,72 @@
 .advisorpage-about {
+  @include flex(column, space-between, center);
   width: 100%;
-  // height: 100%;
-  padding: 5% 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  padding: 4rem 10%;
   background-color: #f7f7f7;
 }
 
 .advisorpage-about-top-container {
+  @include flex(row, space-between, center);
   width: 100%;
-  height: 48%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 
-  img {
-    width: 40%;
-    height: 100%;
+  > img {
+    width: 25%;
     object-fit: contain;
-    object-position: right;
-  }
-}
-
-.advisorpage-about-bottom-container {
-  width: 100%;
-  height: 48%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-self: start;
-
-  h4 {
-    width: 100%;
-    height: 2rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    color: rgba(0, 0, 0, 0.4);
-  }
-
-  p {
-    width: 100%;
-    height: calc(80% - 2rem);
-    font-size: 1.1rem;
-    line-height: 2rem;
-    color: #4d4d4d;
   }
 }
 
 .advisorpage-about-top-text {
+  @include flex(column, space-evenly, flex-start);
   width: 60%;
-  height: 100%;
-  padding: 2% 0%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 
-  h3 {
+  > h3 {
     font-size: 2rem;
-    line-height: 2.5rem;
+    line-height: 4rem;
     font-weight: bold;
-    color: rgba(47, 47, 47, 0.87);
+    color: $text-default;
   }
 
-  div {
+  > div {
+    margin: 0.7rem 0;
     font-size: 1.1rem;
     line-height: 2rem;
-    color: #4d4d4d;
+    color: $text-default;
   }
 
-  a {
+  > a {
+    @include flex(row, flex-start, center);
     width: 50%;
-    height: 15%;
-    color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    color: $text-grey;
 
     &:hover {
-      color: #4d4d4d;
+      color: $text-default;
     }
 
-    img {
+    > img {
       width: 1.3rem;
-      height: 1.3rem;
       margin-right: 1.2rem;
       object-fit: contain;
       object-position: left;
     }
+  }
+}
+
+.advisorpage-about-bottom-container {
+  @include flex(column, space-evenly, flex-start);
+  width: 100%;
+
+  > h4 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    color: $text-grey;
+  }
+
+  > p {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    color: $text-default;
   }
 }

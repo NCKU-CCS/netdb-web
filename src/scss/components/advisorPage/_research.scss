@@ -8,7 +8,7 @@
     font-size: 2rem;
     line-height: 2.5rem;
     font-weight: bold;
-    color: rgba(47, 47, 47, 0.87);
+    color: $text-default;
   }
 
   > section {
@@ -23,7 +23,7 @@
       font-size: 1.5rem;
       line-height: 2rem;
       font-weight: bold;
-      color: rgba(47, 47, 47, 0.87);
+      color: $text-default;
     }
 
     > ul {
