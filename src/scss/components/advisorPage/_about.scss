@@ -24,7 +24,6 @@
     line-height: 2.5rem;
     font-weight: bold;
     color: $text-default;
-    // border: red solid 1px;
   }
 
   > div {
@@ -38,7 +37,6 @@
     @include flex(row, flex-start, center);
     width: 50%;
     color: $text-grey;
-    // border: red solid 1px;
 
     &:hover {
       color: $text-default;
