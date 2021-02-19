@@ -5,16 +5,21 @@
   background-color: #f7f7f7;
 
   > h3 {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-size: 2rem;
-    line-height: 2.5rem;
+    // line-height: 2.5rem;
     font-weight: bold;
     color: $text-default;
   }
 
   > section {
     width: 100%;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.5rem;
+    // border: red solid 1px;
+
+    &.advisorpage-education-award-container {
+      margin: 0;
+    }
 
     > h4 {
       font-size: 1.5rem;
@@ -26,8 +31,15 @@
     > div {
       display: flex;
       font-size: 1.1rem;
-      line-height: 2.5rem;
+      line-height: 1.6rem;
+      margin-bottom: 1rem;
       color: $text-default;
+      // border: red solid 1px;
+
+      &.advisorpage-education-award-content {
+        // border: blue solid 1px;
+        margin-bottom: 0.4rem;
+      }
 
       > span {
         min-width: 9rem;

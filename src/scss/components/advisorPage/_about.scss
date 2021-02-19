@@ -21,15 +21,16 @@
 
   > h3 {
     font-size: 2rem;
-    line-height: 4rem;
+    line-height: 2.5rem;
     font-weight: bold;
     color: $text-default;
+    // border: red solid 1px;
   }
 
   > div {
-    margin: 0.7rem 0;
+    margin-bottom: 1.2rem;
     font-size: 1.1rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
     color: $text-default;
   }
 
@@ -37,6 +38,7 @@
     @include flex(row, flex-start, center);
     width: 50%;
     color: $text-grey;
+    // border: red solid 1px;
 
     &:hover {
       color: $text-default;
@@ -59,14 +61,14 @@
     width: 100%;
     font-weight: bold;
     font-size: 1.5rem;
-    line-height: 5rem;
+    line-height: 3rem;
     color: $text-grey;
   }
 
   > p {
     width: 100%;
     font-size: 1.1rem;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
     color: $text-default;
   }
 }

@@ -43,9 +43,11 @@ const Education: React.FC = () => (
         </p>
       </div>
     </section>
-    <section>
+    <section className={classNames('advisorpage-education-award-container')}>
       <h4>Honor ＆ Awards</h4>
-      <div>Ericsson Taiwan Ph.D. Fellowship, 2001</div>
+      <div className={classNames('advisorpage-education-award-content')}>
+        Ericsson Taiwan Ph.D. Fellowship, 2001
+      </div>
     </section>
   </div>
 );
