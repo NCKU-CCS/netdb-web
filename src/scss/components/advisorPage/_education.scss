@@ -1,0 +1,46 @@
+.advisorpage-education {
+  @include flex(column, space-between, flex-start);
+  width: 100%;
+  padding: 2.5rem 10%;
+  background-color: #f7f7f7;
+
+  > h3 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $text-default;
+  }
+
+  > section {
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+    &.advisorpage-education-award-container {
+      margin: 0;
+    }
+
+    > h4 {
+      font-size: 1.5rem;
+      line-height: 3rem;
+      font-weight: bold;
+      color: $text-default;
+    }
+
+    > div {
+      display: flex;
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+      margin-bottom: 1rem;
+      color: $text-default;
+
+      &.advisorpage-education-award-content {
+        margin-bottom: 0.4rem;
+      }
+
+      > span {
+        min-width: 9rem;
+        color: $text-grey;
+      }
+    }
+  }
+}

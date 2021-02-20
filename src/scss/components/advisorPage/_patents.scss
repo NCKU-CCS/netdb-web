@@ -1,0 +1,36 @@
+.advisorpage-patents-container {
+  @include flex(column, space-between, flex-start);
+  width: 100%;
+  padding: 2.5rem 10%;
+
+  > h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $text-default;
+  }
+
+  > section {
+    @include flex(column, space-between, flex-start);
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    color: $text-default;
+
+    > h4 {
+      font-size: 1.5rem;
+      line-height: 3.7rem;
+      font-weight: bold;
+      color: $text-default;
+    }
+
+    > h5 {
+      font-weight: bold;
+      margin: 1.2rem 0;
+    }
+
+    > div {
+      margin: 0.5rem 0;
+    }
+  }
+}
