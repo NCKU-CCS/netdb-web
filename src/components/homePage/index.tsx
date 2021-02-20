@@ -15,7 +15,7 @@ const HomePageContainer = () => (
       className={classNames('homepage-application-and-service-title')}
       data-aos="fade-up"
     >
-      Application & Service
+      Application ＆ Service
     </div>
     <Service />
     <Application />

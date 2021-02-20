@@ -1,3 +1,6 @@
+// abstracts
+@import './abstracts/';
+
 // base
 @import './base/';
 
@@ -5,4 +8,5 @@
 @import './components/navbar/';
 @import './components/footer/';
 @import './components/homePage/';
+@import './components/advisorPage/';
 @import './components/contactPage/';
