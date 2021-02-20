@@ -1,0 +1,72 @@
+.advisorpage-about {
+  @include flex(column, space-between, center);
+  width: 100%;
+  padding: 3rem 10%;
+  background-color: #f7f7f7;
+}
+
+.advisorpage-about-top-container {
+  @include flex(row, space-between, center);
+  width: 100%;
+
+  > img {
+    width: 25%;
+    object-fit: contain;
+  }
+}
+
+.advisorpage-about-top-text {
+  @include flex(column, space-evenly, flex-start);
+  width: 60%;
+
+  > h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: $text-default;
+  }
+
+  > div {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: $text-default;
+  }
+
+  > a {
+    @include flex(row, flex-start, center);
+    width: 50%;
+    color: $text-grey;
+
+    &:hover {
+      color: $text-default;
+    }
+
+    > img {
+      width: 1.3rem;
+      margin-right: 1.2rem;
+      object-fit: contain;
+      object-position: left;
+    }
+  }
+}
+
+.advisorpage-about-bottom-container {
+  @include flex(column, space-evenly, flex-start);
+  width: 100%;
+
+  > h4 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: $text-grey;
+  }
+
+  > p {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 2.3rem;
+    color: $text-default;
+  }
+}
