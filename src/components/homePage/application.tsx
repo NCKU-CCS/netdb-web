@@ -2,7 +2,11 @@ import React from 'react';
 import classNames from 'classnames';
 
 const Application: React.FC = () => (
-  <div className={classNames('homepage-application')}>
+  <div
+    className={classNames('homepage-application')}
+    data-aos="fade-up"
+    data-aos-offset="300"
+  >
     <img
       alt="application"
       src={`${process.env.PUBLIC_URL}/homePage/application/bg.png`}
