@@ -60,4 +60,10 @@
   background-color: rgba(135, 135, 135, 0.5);
   opacity: 0;
   transition: all 0.5s ease-in-out;
+
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+  }
 }
