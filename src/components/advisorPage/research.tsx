@@ -19,13 +19,15 @@ const Research: React.FC = () => (
       <h4>Teaching</h4>
       <ul className={classNames('advisorpage-research-teaching-list')}>
         <li>
-          2015/9 - 2016/1 &nbsp;&nbsp; Introduction to Know. Discovery and Data
-          Engineering
+          <span>2015/9 - 2016/1</span> &nbsp;&nbsp; Introduction to Know.
+          Discovery and Data Engineering
         </li>
-        <li>2015/2 - 2015/6 &nbsp;&nbsp; Theory of Computation</li>
         <li>
-          2014/9 - 2015/2 &nbsp;&nbsp; Introduction to Cloud Computing and
-          System
+          <span>2015/2 - 2015/6</span> &nbsp;&nbsp; Theory of Computation
+        </li>
+        <li>
+          <span>2014/9 - 2015/2</span> &nbsp;&nbsp; Introduction to Cloud
+          Computing and System
         </li>
       </ul>
     </section>

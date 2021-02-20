@@ -32,6 +32,10 @@
         font-size: 1.1rem;
         line-height: 2.5rem;
         color: $text-default;
+
+        > span {
+          color: $text-grey;
+        }
       }
     }
   }
