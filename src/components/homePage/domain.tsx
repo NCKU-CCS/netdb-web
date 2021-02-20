@@ -8,7 +8,7 @@ interface IProps {
 }
 
 const Domain: React.FC<IProps> = ({ imgName, title, content }) => (
-  <div className={classNames('homepage-research-domain')}>
+  <div className={classNames('homepage-research-domain')} data-aos="fade-up">
     <img
       alt={imgName}
       src={`${process.env.PUBLIC_URL}/homePage/research/${imgName}.png`}

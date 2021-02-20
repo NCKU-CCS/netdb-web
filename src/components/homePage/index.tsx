@@ -11,7 +11,10 @@ const HomePageContainer = () => (
     <Intro />
     <Partner />
     <Research />
-    <div className={classNames('homepage-application-and-service-title')}>
+    <div
+      className={classNames('homepage-application-and-service-title')}
+      data-aos="fade-up"
+    >
       Application ＆ Service
     </div>
     <Service />
