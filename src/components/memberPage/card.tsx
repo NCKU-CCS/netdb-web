@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 
 interface IProps {
   title: string;
@@ -10,7 +11,12 @@ interface IProps {
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Card: React.FC<IProps> = ({ title, name, mail, website, expertise }) => (
-  <div>Card</div>
+  <div className={classNames('memberpage-card')}>
+    <img
+      alt={name}
+      src={`${process.env.PUBLIC_URL}/memberPage/members/sample.jpg`}
+    />
+  </div>
 );
 
 export default Card;

@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 import Card from './card';
 
 interface IMember {
@@ -25,9 +26,11 @@ const Position: React.FC<IProps> = ({ title, members }) => {
     />
   ));
   return (
-    <div>
-      <div>{title}</div>
-      <div>{createCards}</div>
+    <div className={classNames('memberpage-position')}>
+      <h3>{title}</h3>
+      <div className={classNames('memberpage-position-cards-container')}>
+        {createCards}
+      </div>
     </div>
   );
 };
