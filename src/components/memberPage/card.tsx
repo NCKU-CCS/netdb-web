@@ -25,12 +25,14 @@ const Card: React.FC<IProps> = ({ title, name, mail, website, expertise }) => {
       <div className={classNames('memberpage-card-hover')}>
         <a href={`mailto:${mail}`}>
           <img
+            className={classNames('memberpage-card-hover-img-mail')}
             alt="mail"
             src={`${process.env.PUBLIC_URL}/memberPage/mail.png`}
           />
         </a>
         <a href={website}>
           <img
+            className={classNames('memberpage-card-hover-img-website')}
             alt="website"
             src={`${process.env.PUBLIC_URL}/memberPage/github.png`}
           />
