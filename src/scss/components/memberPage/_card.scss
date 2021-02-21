@@ -6,7 +6,7 @@
   &:hover {
     cursor: pointer;
     transform: translateY(-5px);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
   }
 
   &:hover .memberpage-card-footer {
@@ -25,13 +25,15 @@
 
 .memberpage-card-footer {
   position: absolute;
-  bottom: 0;
+  bottom: 2px;
   left: 0;
   width: 100%;
   padding: 0.5rem 1rem;
   background-color: rgba(#878787, 0.5);
   color: white;
   transition: all 0.5s ease-in-out;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 
   > h4 {
     font-size: 1.75rem;
@@ -60,6 +62,8 @@
   background-color: rgba(135, 135, 135, 0.5);
   opacity: 0;
   transition: all 0.5s ease-in-out;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 
   img {
     width: 1.5rem;
