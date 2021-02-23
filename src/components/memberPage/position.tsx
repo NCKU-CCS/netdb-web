@@ -2,10 +2,16 @@ import React from 'react';
 import classNames from 'classnames';
 import Card from './card';
 
+interface ILink {
+  github: string;
+  linkedin: string;
+  homepage: string;
+}
+
 interface IMember {
   name: string;
   mail: string;
-  website: string;
+  link: ILink;
   expertise: string[];
 }
 
@@ -20,7 +26,7 @@ const Position: React.FC<IProps> = ({ title, members }) => {
       title={title}
       name={d.name}
       mail={d.mail}
-      website={d.website}
+      link={d.link}
       expertise={d.expertise}
     />
   ));
