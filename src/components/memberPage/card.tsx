@@ -9,7 +9,6 @@ interface IProps {
   expertise: string[];
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Card: React.FC<IProps> = ({ title, name, mail, website, expertise }) => {
   const createExpertise = expertise.map((d) => <div>{d}</div>);
   return (

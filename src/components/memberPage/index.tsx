@@ -4,7 +4,6 @@ import Banner from './banner';
 import Position from './position';
 
 const MemberPageContainer: React.FC = () => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { consultant, postdoc, assistant, phd, master, bachelor } = members;
   return (
     <>

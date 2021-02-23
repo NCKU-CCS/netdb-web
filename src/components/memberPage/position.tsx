@@ -14,7 +14,6 @@ interface IProps {
   members: IMember[];
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Position: React.FC<IProps> = ({ title, members }) => {
   const createCards = members.map((d) => (
     <Card
