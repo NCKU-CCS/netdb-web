@@ -10,7 +10,7 @@ const Contact: React.FC = () => (
       </a>
     </div>
     <div className={classNames('footer-contact-item')}>
-      <img alt="mail" src={`${process.env.PUBLIC_URL}/footer/phone.png`} />
+      <img alt="phone" src={`${process.env.PUBLIC_URL}/footer/phone.png`} />
       <a href="tel:+886-6-2757575">+886-6-2757575 ext. 62520 # 2608</a>
     </div>
   </div>
