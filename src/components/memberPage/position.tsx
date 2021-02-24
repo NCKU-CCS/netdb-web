@@ -30,6 +30,7 @@ const Position: React.FC<IProps> = ({ title, members }) => {
       expertise={d.expertise}
     />
   ));
+
   return (
     <div className={classNames('memberpage-position')}>
       <h3>{title}</h3>

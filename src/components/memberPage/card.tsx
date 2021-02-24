@@ -22,7 +22,7 @@ const Card: React.FC<IProps> = ({ title, name, mail, link, expertise }) => {
     <div className={classNames('memberpage-card')}>
       <img
         alt={name}
-        src={`${process.env.PUBLIC_URL}/memberPage/members/sample.jpg`}
+        src={`${process.env.PUBLIC_URL}/memberPage/members/${name}.jpg`}
       />
       <div className={classNames('memberpage-card-footer')}>
         <h4>{name}</h4>

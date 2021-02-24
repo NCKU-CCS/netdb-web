@@ -3,23 +3,23 @@
   position: relative;
   transition: all 0.3s ease-in-out;
 
+  > img {
+    width: 100%;
+    object-fit: contain;
+  }
+
   &:hover {
     cursor: pointer;
     transform: translateY(-5px);
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.1);
-  }
 
-  &:hover .memberpage-card-footer {
-    opacity: 0;
-  }
+    > .memberpage-card-footer {
+      opacity: 0;
+    }
 
-  &:hover .memberpage-card-hover {
-    opacity: 1;
-  }
-
-  > img {
-    width: 100%;
-    object-fit: contain;
+    > .memberpage-card-hover {
+      opacity: 1;
+    }
   }
 }
 
