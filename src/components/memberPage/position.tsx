@@ -3,9 +3,9 @@ import classNames from 'classnames';
 import Card from './card';
 
 interface ILink {
-  github: string;
-  linkedin: string;
-  homepage: string;
+  github: string | null;
+  linkedin: string | null;
+  homepage: string | null;
 }
 
 interface IMember {

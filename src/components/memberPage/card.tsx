@@ -2,9 +2,9 @@ import React from 'react';
 import classNames from 'classnames';
 
 interface ILink {
-  github: string;
-  linkedin: string;
-  homepage: string;
+  github: string | null;
+  linkedin: string | null;
+  homepage: string | null;
 }
 
 interface IProps {
@@ -17,6 +17,20 @@ interface IProps {
 
 const Card: React.FC<IProps> = ({ title, name, mail, link, expertise }) => {
   const createExpertise = expertise.map((d) => <div>{d}</div>);
+
+  const createLinks = Object.values(link)
+    .filter((el) => el)
+    .map((el, i) => (
+      <a href={el}>
+        <img
+          className={classNames(`memberpage-card-hover-img--${i}`)}
+          alt={Object.keys(link)[i]}
+          src={`${process.env.PUBLIC_URL}/memberPage/${
+            Object.keys(link)[i]
+          }.png`}
+        />
+      </a>
+    ));
 
   return (
     <div className={classNames('memberpage-card')}>
@@ -36,27 +50,7 @@ const Card: React.FC<IProps> = ({ title, name, mail, link, expertise }) => {
             src={`${process.env.PUBLIC_URL}/memberPage/mail.png`}
           />
         </a>
-        <a href={link.github}>
-          <img
-            className={classNames('memberpage-card-hover-img-github')}
-            alt="github"
-            src={`${process.env.PUBLIC_URL}/memberPage/github.png`}
-          />
-        </a>
-        <a href={link.linkedin}>
-          <img
-            className={classNames('memberpage-card-hover-img-linkedin')}
-            alt="linkedin"
-            src={`${process.env.PUBLIC_URL}/memberPage/linkedin.png`}
-          />
-        </a>
-        <a href={link.homepage}>
-          <img
-            className={classNames('memberpage-card-hover-img-homepage')}
-            alt="homepage"
-            src={`${process.env.PUBLIC_URL}/memberPage/homepage.png`}
-          />
-        </a>
+        {createLinks}
         {createExpertise}
       </div>
     </div>
