@@ -18,20 +18,6 @@ interface IProps {
 const Card: React.FC<IProps> = ({ title, name, mail, link, expertise }) => {
   const createExpertise = expertise.map((d) => <div>{d}</div>);
 
-  const createLinks = Object.values(link)
-    .filter((el) => el)
-    .map((el, i) => (
-      <a href={el}>
-        <img
-          className={classNames(`memberpage-card-hover-img--${i}`)}
-          alt={Object.keys(link)[i]}
-          src={`${process.env.PUBLIC_URL}/memberPage/${
-            Object.keys(link)[i]
-          }.png`}
-        />
-      </a>
-    ));
-
   return (
     <div className={classNames('memberpage-card')}>
       <img
@@ -43,14 +29,39 @@ const Card: React.FC<IProps> = ({ title, name, mail, link, expertise }) => {
         <div>{title}</div>
       </div>
       <div className={classNames('memberpage-card-hover')}>
-        <a href={`mailto:${mail}`}>
-          <img
-            className={classNames('memberpage-card-hover-img-mail')}
-            alt="mail"
-            src={`${process.env.PUBLIC_URL}/memberPage/mail.png`}
-          />
-        </a>
-        {createLinks}
+        <div className={classNames('memberpage-card-hover-icons-container')}>
+          <a href={`mailto:${mail}`}>
+            <img
+              className={classNames('memberpage-card-hover-img-mail')}
+              alt="mail"
+              src={`${process.env.PUBLIC_URL}/memberPage/mail.png`}
+            />
+          </a>
+          {link.github && (
+            <a href={link.github}>
+              <img
+                alt="github"
+                src={`${process.env.PUBLIC_URL}/memberPage/github.png`}
+              />
+            </a>
+          )}
+          {link.linkedin && (
+            <a href={link.linkedin}>
+              <img
+                alt="linkedin"
+                src={`${process.env.PUBLIC_URL}/memberPage/linkedin.png`}
+              />
+            </a>
+          )}
+          {link.homepage && (
+            <a href={link.homepage}>
+              <img
+                alt="homepage"
+                src={`${process.env.PUBLIC_URL}/memberPage/homepage.png`}
+              />
+            </a>
+          )}
+        </div>
         {createExpertise}
       </div>
     </div>
