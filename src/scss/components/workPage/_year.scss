@@ -4,7 +4,6 @@ $button-width: 90px;
   @include flex(row, flex-end, center);
   width: 100%;
   padding: 1rem 5%;
-  border: red solid 1px;
 }
 
 .workpage-year-buttons {
