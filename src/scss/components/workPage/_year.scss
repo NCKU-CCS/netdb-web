@@ -1,0 +1,72 @@
+$button-width: 90px;
+
+.workpage-year {
+  @include flex(row, flex-end, center);
+  width: 100%;
+  padding: 1rem 5%;
+  border: red solid 1px;
+}
+
+.workpage-year-buttons {
+  position: relative;
+
+  > button {
+    cursor: pointer;
+    width: $button-width;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: $text-grey;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+
+    &:hover {
+      color: $text-green;
+    }
+  }
+
+  > .workpage-year-bar {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: $button-width - 30px;
+    height: 5px;
+    color: transparent;
+    background-color: #59d9ac;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+
+    &:hover {
+      color: transparent;
+    }
+  }
+
+  :nth-child(1):hover~.workpage-year-bar {
+    left: 15px;
+  }
+
+  :nth-child(2):hover~.workpage-year-bar {
+    left: 15px + $button-width;
+  }
+
+  :nth-child(3):hover~.workpage-year-bar {
+    left: 15px + $button-width * 2;
+  }
+
+  :nth-child(4):hover~.workpage-year-bar {
+    left: 15px + $button-width * 3;
+  }
+
+  :nth-child(5):hover~.workpage-year-bar {
+    left: 15px + $button-width * 4;
+  }
+
+  :nth-child(6):hover~.workpage-year-bar {
+    left: 15px + $button-width * 5;
+  }
+
+  :nth-child(7):hover~.workpage-year-bar {
+    left: 15px + $button-width * 6;
+  }
+}

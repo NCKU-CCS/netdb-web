@@ -1,11 +1,12 @@
 import React from 'react';
-import classNames from 'classnames';
+import Banner from './banner';
+import Year from './year';
 
 const WorkPageContainer: React.FC = () => (
-  <div className={classNames('workpage-banner')}>
-    <h1>Our Works</h1>
-    <img alt="Our Works" src={`${process.env.PUBLIC_URL}/workPage/bg.svg`} />
-  </div>
+  <>
+    <Banner />
+    <Year />
+  </>
 );
 
 export default WorkPageContainer;
