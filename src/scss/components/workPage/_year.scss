@@ -20,7 +20,7 @@ $button-width: 90px;
     border: 0;
     outline: 0;
 
-    &:hover  {
+    &.chosen {
       color: $text-green;
     }
   }
@@ -36,33 +36,33 @@ $button-width: 90px;
     transition: all 0.5s ease 0s;
   }
 
-  :nth-child(1):hover~.workpage-year-bar {
-    left: 15px;
-  }
+  // :nth-child(1):hover~.workpage-year-bar {
+  //   left: 15px;
+  // }
 
-  :nth-child(2):hover~.workpage-year-bar {
-    left: 15px + $button-width;
-  }
+  // :nth-child(2):hover~.workpage-year-bar {
+  //   left: 15px + $button-width;
+  // }
 
-  :nth-child(3):hover~.workpage-year-bar {
-    left: 15px + $button-width * 2;
-  }
+  // :nth-child(3):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 2;
+  // }
 
-  :nth-child(4):hover~.workpage-year-bar {
-    left: 15px + $button-width * 3;
-  }
+  // :nth-child(4):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 3;
+  // }
 
-  :nth-child(5):hover~.workpage-year-bar {
-    left: 15px + $button-width * 4;
-  }
+  // :nth-child(5):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 4;
+  // }
 
-  :nth-child(6):hover~.workpage-year-bar {
-    left: 15px + $button-width * 5;
-  }
+  // :nth-child(6):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 5;
+  // }
 
-  :nth-child(7):hover~.workpage-year-bar {
-    left: 15px + $button-width * 6;
-  }
+  // :nth-child(7):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 6;
+  // }
 }
 
 .workpage-year-bar--1 {
