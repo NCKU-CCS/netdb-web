@@ -1,9 +1,17 @@
 $button-width: 90px;
 
 .workpage-year {
-  @include flex(row, flex-end, center);
+  @include flex(column, center, flex-end);
   width: 100%;
   padding: 1rem 5%;
+
+  h5 {
+    align-self: flex-start;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: $text-green;
+  }
 }
 
 .workpage-year-buttons {
@@ -65,30 +73,30 @@ $button-width: 90px;
   // }
 }
 
-.workpage-year-bar--1 {
+.workpage-year-bar--2021 {
   left: 15px;
 }
 
-.workpage-year-bar--2 {
+.workpage-year-bar--2020 {
   left: 15px + $button-width;
 }
 
-.workpage-year-bar--3 {
+.workpage-year-bar--2019 {
   left: 15px + $button-width * 2;
 }
 
-.workpage-year-bar--4 {
+.workpage-year-bar--2018 {
   left: 15px + $button-width * 3;
 }
 
-.workpage-year-bar--5 {
+.workpage-year-bar--2017 {
   left: 15px + $button-width * 4;
 }
 
-.workpage-year-bar--6 {
+.workpage-year-bar--2016 {
   left: 15px + $button-width * 5;
 }
 
-.workpage-year-bar--7 {
+.workpage-year-bar--2015 {
   left: 15px + $button-width * 6;
 }

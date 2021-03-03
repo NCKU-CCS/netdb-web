@@ -1,69 +1,69 @@
-/* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useState } from 'react';
 import classNames from 'classnames';
 
 const Year: React.FC = () => {
-  const [btnClicked, setBtnClicked] = useState<number>(1);
+  const [year, setYear] = useState<number>(2021);
 
   return (
     <div className={classNames('workpage-year')}>
       <div className={classNames('workpage-year-buttons')}>
         <button
           type="button"
-          className={classNames(btnClicked === 1 ? 'chosen' : '')}
-          onClick={() => setBtnClicked(1)}
+          className={classNames(year === 2021 ? 'chosen' : '')}
+          onClick={() => setYear(2021)}
         >
           2021
         </button>
         <button
           type="button"
-          className={classNames(btnClicked === 2 ? 'chosen' : '')}
-          onClick={() => setBtnClicked(2)}
+          className={classNames(year === 2020 ? 'chosen' : '')}
+          onClick={() => setYear(2020)}
         >
           2020
         </button>
         <button
           type="button"
-          className={classNames(btnClicked === 3 ? 'chosen' : '')}
-          onClick={() => setBtnClicked(3)}
+          className={classNames(year === 2019 ? 'chosen' : '')}
+          onClick={() => setYear(2019)}
         >
           2019
         </button>
         <button
           type="button"
-          className={classNames(btnClicked === 4 ? 'chosen' : '')}
-          onClick={() => setBtnClicked(4)}
+          className={classNames(year === 2018 ? 'chosen' : '')}
+          onClick={() => setYear(2018)}
         >
           2018
         </button>
         <button
           type="button"
-          className={classNames(btnClicked === 5 ? 'chosen' : '')}
-          onClick={() => setBtnClicked(5)}
+          className={classNames(year === 2017 ? 'chosen' : '')}
+          onClick={() => setYear(2017)}
         >
           2017
         </button>
         <button
           type="button"
-          className={classNames(btnClicked === 6 ? 'chosen' : '')}
-          onClick={() => setBtnClicked(6)}
+          className={classNames(year === 2016 ? 'chosen' : '')}
+          onClick={() => setYear(2016)}
         >
           2016
         </button>
         <button
           type="button"
-          className={classNames(btnClicked === 7 ? 'chosen' : '')}
-          onClick={() => setBtnClicked(7)}
+          className={classNames(year === 2015 ? 'chosen' : '')}
+          onClick={() => setYear(2015)}
         >
           2015
         </button>
         <div
           className={classNames(
             'workpage-year-bar',
-            `workpage-year-bar--${btnClicked}`,
+            `workpage-year-bar--${year}`,
           )}
         />
       </div>
+      <h5>{year}</h5>
     </div>
   );
 };
