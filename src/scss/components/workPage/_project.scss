@@ -1,0 +1,22 @@
+.workpage-project {
+  @include flex(row, space-between, center);
+  width: 90%;
+  margin: 1rem 5%;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.05), 0 16px 40px 0 rgba(0, 0, 0, 0.05);
+  border: red solid 1px;
+
+  > img {
+    width: 40%;
+    object-fit: contain;
+    object-position: left;
+    border: red solid 1px;
+  }
+}
+
+.workpage-project-text {
+  width: 60%;
+  color: $text-default;
+  border: red solid 1px;
+}

@@ -1,13 +1,32 @@
-{
-  "2015": [
-    {
-      "name": "TaiwanStat",
-      "type": "Visualization",
-      "slogan": "Community of Open Data Visualization",
-      "introduction": "Some Netdbers organized the TaiwanStat community and delivered the knowledge of data understanding to people. Currently, the data sources pick from Open Data which are provided by the Taiwan government. We also have some academic collaborations. On Facebook, we have a fan page with more than 22K members (2015/8).",
-      "link": "https://www.taiwanstat.com/",
-      "img": "taiwan-stat",
-      "partners": ["台南市政府"]
-    }
-  ]
-}
+[
+  {
+    "name": "TaiwanStat",
+    "year": 2015,
+    "type": "Interactive Data Visualization",
+    "slogan": "Community of Open Data Visualization",
+    "introduction": "Some Netdbers organized the TaiwanStat community and delivered the knowledge of data understanding to people. Currently, the data sources pick from Open Data which are provided by the Taiwan government. We also have some academic collaborations. On Facebook, we have a fan page with more than 22K members (2015/8).",
+    "link": "https://www.taiwanstat.com/",
+    "img": "taiwan-stat",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "TaiwanStat",
+    "year": 2016,
+    "type": "Interactive Data Visualization",
+    "slogan": "Community of Open Data Visualization",
+    "introduction": "Some Netdbers organized the TaiwanStat community and delivered the knowledge of data understanding to people. Currently, the data sources pick from Open Data which are provided by the Taiwan government. We also have some academic collaborations. On Facebook, we have a fan page with more than 22K members (2015/8).",
+    "link": "https://www.taiwanstat.com/",
+    "img": "taiwan-stat",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "TaiwanStat",
+    "year": 2017,
+    "type": "Interactive Data Visualization",
+    "slogan": "Community of Open Data Visualization",
+    "introduction": "Some Netdbers organized the TaiwanStat community and delivered the knowledge of data understanding to people. Currently, the data sources pick from Open Data which are provided by the Taiwan government. We also have some academic collaborations. On Facebook, we have a fan page with more than 22K members (2015/8).",
+    "link": "https://www.taiwanstat.com/",
+    "img": "taiwan-stat",
+    "partners": ["台南市政府"]
+  }
+]
