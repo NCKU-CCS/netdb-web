@@ -6,7 +6,7 @@
 }
 
 .workpage-project {
-  @include flex(row, space-between, flex-start);
+  @include flex(row, space-between, center);
   width: 90%;
   margin: 2rem 5%;
   padding: 2rem;
@@ -19,7 +19,7 @@
     height: 100%;
     object-fit: cover;
     object-position: 0% 0%;
-    border: #f1f1f1 solid 1px;
+    // border: #f1f1f1 solid 1px;
   }
 }
 
