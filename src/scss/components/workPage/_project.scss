@@ -1,3 +1,10 @@
+.workpage-project-container > h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: $text-grey;
+  margin-left: 5%;
+}
+
 .workpage-project {
   @include flex(row, space-between, flex-start);
   width: 90%;
