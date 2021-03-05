@@ -28,5 +28,95 @@
     "link": "https://www.junyiacademy.org",
     "img": "junyi",
     "partners": ["台南市政府"]
+  },
+  {
+    "name": "Smart Home Security Platform",
+    "year": 2017,
+    "type": "AIOT",
+    "slogan": "Protection of your home, elder and child",
+    "introduction": "In this project, to achieve the purpose of home care, we proposed a model to extract elders’ behavior patterns at home from the sensor data which do not invade their privacy, such as the use of electrical appliance and the door switches to detect any abnormal behavior. In addition, we also analyzed the open data released by the government through the technology of heterogeneous data analysis and proposed applications of home security.",
+    "link": null,
+    "img": "smart-home-security-platform",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "Refinement of Finance Prediction Model",
+    "year": 2017,
+    "type": "Data Science",
+    "slogan": "Optimize and accelerate the time-series prediction model",
+    "introduction": "In this project, we proposed a comprehensive optimization strategy and design for ARIMA. We mainly considered that the ARIMA computing module is applied in cloud service. This cloud service can provide a fast ARIMA computing module for a large number of users. Besides, we need to explore the optimal computing strategy in different application scenarios through this computing module.",
+    "link": null,
+    "img": "apex",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "Variations of body surface temperature as individualized risk assessment of malaise",
+    "year": 2018,
+    "type": "AIOT",
+    "slogan": "Surface body temperature research of different citizens",
+    "introduction": "Continuously monitoring the changes of body temperature was thought to identify the infectious diseases and the occurrence of poor prognosis. In addition, it could detect the occurrence of infectious diseases and predict the possibility of clustering, furthermore, it could reduce poor prognosis and comorbidities. We collected huge amounts of data through the smart IoT devices. Besides, we established the indicators of individualized discomfort risk based on the changes of individual’s body temperature and discomfort as reference for the strategies of infectious diseases prevention.",
+    "link": null,
+    "img": "body-surface-temp",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "HAPPig",
+    "year": 2018,
+    "type": "Data Science",
+    "slogan": "An Artificial Intelligence IoT System For Analyzing The Health Of Pigs",
+    "introduction": "In this project, we proposed a pig’s health analyzing system that combines artificial intelligence and the Internet of Things for livestock. This system introduces technologies such as smart Internet of Things (IoT) monitoring, artificial intelligence, image recognition, big data analysis and chatbot into the pig farming industry, named as HAPPig system. Instead of farmers, this system can monitor the pigs to reduce the labor costs of traditional labor-intensive pig farming. Furthermore, we used artificial intelligence to predict the physiological status of pigs and significantly reduce the risk of diseases and infections. All of the information and abnormal notification will present on the mobile devices or the webpage to farmers or managers.",
+    "link": null,
+    "img": "happig",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "Coding-X",
+    "year": 2018,
+    "type": "Data Science",
+    "slogan": "Integrate computing science knowledge to solve cross-domain problems",
+    "introduction": "In this project, we aim to train the students who are not founded in Department of Computer Science and Information Engineering to obtain the skills of software and train them to create a project through the mentoring system. Furthermore, they would become the top digital cross-domain problem solver.",
+    "link": "https://www.facebook.com/X-Village-423736361424301/",
+    "img": "coding-x",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "Big Data Analysis Alliance Center",
+    "year": 2019,
+    "type": "Data Science",
+    "slogan": "Cultivate big data analysis talents",
+    "introduction": "This project is mainly promoted in the field of data science and big data. It focuses on the smart innovation and people training. The goal is to combine the teachers, professionals, and students from each country, each school and each field to achieve the objective of training people in the field of data science.",
+    "link": "https://www.facebook.com/nckutsoc.tw/",
+    "img": "itsa",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "A smart wristband and its cloud-based service platform",
+    "year": 2019,
+    "type": "AIOT",
+    "slogan": "Proactive clinical applications and services on  prevention and control for infectious diseases",
+    "introduction": "We developed smart epidemic prevention bracelets and cloud service platforms with technology manufacturers. The goal is to promote smart epidemic prevention and build applications and services of early warning system for epidemic prevention in the context of IoT and big data. In addition to the instant and massive physiological monitoring of public, the integration of cloud platform, smart epidemic prevention bracelets and AI effectively predicted and implemented epidemic prevention to high-risk areas. To avoid spend extra manpower and money after the outbreak of epidemic, we combined with industry, government and academia to develop smart epidemic prevention strategies with AI and IoT.",
+    "link": "https://www.ettoday.net/news/20191126/1588275.htm",
+    "img": "smart-wrist",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "Blockchain-driven data marketplace",
+    "year": 2019,
+    "type": "DLT",
+    "slogan": "Empower the value of data",
+    "introduction": "This project aims at developing a data marketplace (DMP). It is a platform which enables convenient buying and selling of data. The objective of this project is to satisfy the demand for data while giving back reasonable reward to the data provider. The demand for data comes from different domains nowadays, such as marketing, research and product pipeline optimization. The whole trading process carries out in the distributed ledger system. Therefore, transparency, security and fairness can be guaranteed. Meanwhile, the transaction fees can be minimized because of the absence of third-party organization. The vision of DMP is to improve the liquidity of data so that more data can be utilized by different entities.",
+    "link": null,
+    "img": "data-marketplace",
+    "partners": ["台南市政府"]
+  },
+  {
+    "name": "Energy Trading Platform",
+    "year": 2019,
+    "type": "DLT",
+    "slogan": "Promote electricity liberalization",
+    "introduction": "The main goal of the Energy Trading Platform is to enable Energy Trading and Demand Response (DR) through the decentralization of distributed ledger technology and the immutability of data. The energy production and consumption data collected by BEMS through AMI and all transactions data from this platform will be recorded on the Ethereum blockchain and IOTA Tangle. Comparing to the traditional platform, Energy Trading Platform saves the high cost of hardware and ensures the data security. Besides, there will be a demonstration in Shalun Smart Green Energy Science City and the POC will also be conducted. This platform provides the following two services: Energy Trading – It is an Energy Bidding about the renewable energy in the Building Energy Management System. The extra energy electricity can be effectively used in buildings. Demand Bidding – The participants of this platform conduct Demand Bidding with Taiwan Power Company (TPC) via the aggregators and record the saved electricity and rewards.",
+    "link": "https://et.udc-service.io/",
+    "img": "energy-trading-platform",
+    "partners": ["台南市政府"]
   }
 ]

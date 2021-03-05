@@ -7,7 +7,7 @@ interface IProps {
   type: string;
   slogan: string;
   introduction: string;
-  link: string;
+  link: string | null;
   img: string;
   partners: string[];
 }
@@ -39,12 +39,14 @@ const Project: React.FC<IProps> = ({
               className={classNames('workpage-project-text-header-right-name')}
             >
               {name}
-              <a href={link}>
-                <img
-                  alt="fb"
-                  src={`${process.env.PUBLIC_URL}/workPage/website.png`}
-                />
-              </a>
+              {link && (
+                <a href={link}>
+                  <img
+                    alt="fb"
+                    src={`${process.env.PUBLIC_URL}/workPage/website.png`}
+                  />
+                </a>
+              )}
             </div>
           </div>
         </div>
@@ -53,7 +55,7 @@ const Project: React.FC<IProps> = ({
           {partners.map((d) => (
             <img
               alt={d}
-              src={`${process.env.PUBLIC_URL}/workPage/partner/台南市政府.jpg`}
+              src={`${process.env.PUBLIC_URL}/workPage/台南市政府.jpg`}
             />
           ))}
         </div>
