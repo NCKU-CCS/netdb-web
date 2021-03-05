@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import classNames from 'classnames';
 import Banner from './banner';
 import Year from './year';
 import Project from './project';
@@ -26,6 +27,7 @@ const WorkPageContainer: React.FC = () => {
       <Banner />
       <Year year={year} setYear={setYear} />
       {createProjects}
+      <div className={classNames('workpage-padding-bottom')} />
     </>
   );
 };
