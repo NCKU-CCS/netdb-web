@@ -16,10 +16,10 @@
 
   > img {
     width: 40%;
-    height: 13.5rem;
+    height: 100%;
     object-fit: cover;
     object-position: 0% 0%;
-    // border: red solid 1px;
+    border: #f1f1f1 solid 1px;
   }
 }
 
@@ -63,7 +63,7 @@
   color: $text-grey;
   font-weight: bold;
   font-size: 0.8rem;
-  line-height: 1.7rem;
+  line-height: 1rem;
 }
 
 .workpage-project-text-header-right-name {
@@ -71,7 +71,7 @@
   color: $text-green;
   font-weight: bold;
   font-size: 1.2rem;
-  line-height: 1.7rem;
+  line-height: 2rem;
   background: linear-gradient(to top, #4fc49b, #59d9ac);
   -webkit-background-clip: text;
   background-clip: text;

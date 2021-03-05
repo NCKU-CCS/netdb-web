@@ -10,23 +10,23 @@
     "partners": ["台南市政府"]
   },
   {
-    "name": "TaiwanStat",
-    "year": 2015,
-    "type": "Interactive Data Visualization",
-    "slogan": "Community of Open Data Visualization",
-    "introduction": "Some Netdbers organized the TaiwanStat community and delivered the knowledge of data understanding to people. Currently, the data sources pick from Open Data which are provided by the Taiwan government. We also have some academic collaborations. On Facebook, we have a fan page with more than 22K members (2015/8).",
-    "link": "https://www.taiwanstat.com/",
-    "img": "taiwan-stat",
+    "name": "The Mosquito Man",
+    "year": 2016,
+    "type": "AIOT",
+    "slogan": "Create an environment where everyone no longer needs to worry about mosquito-borne diseases",
+    "introduction": "In the years when the severe outbreak of dengue fever is in Tainan, we cooperated with the Tainan government and proposed “Epidemic Prevention by Science and Technology”in the first instance. In the early stage of the project, through the mosquito man APP, we integrated the government information and let people report the mosquito activity. In addition, we let people know about dengue fever and the epidemic prevention information through the visualization of data. We also cooperated with Media Tek and deployed a large number of smart mosquito traps and egg traps to collect the high-density places of mosquitoes. Besides, we could know the dengue fever epidemic in advance through data analysis.",
+    "link": "https://www.facebook.com/themosquitoman/",
+    "img": "the-mosquito-man",
     "partners": ["台南市政府"]
   },
   {
-    "name": "TaiwanStat",
+    "name": "JunYi Academy",
     "year": 2017,
-    "type": "Interactive Data Visualization",
-    "slogan": "Community of Open Data Visualization",
-    "introduction": "Some Netdbers organized the TaiwanStat community and delivered the knowledge of data understanding to people. Currently, the data sources pick from Open Data which are provided by the Taiwan government. We also have some academic collaborations. On Facebook, we have a fan page with more than 22K members (2015/8).",
-    "link": "https://www.taiwanstat.com/",
-    "img": "taiwan-stat",
+    "type": "Data Science",
+    "slogan": "Implement education equality and provide \"equal\" educational opportunities",
+    "introduction": "We cooperated with Junyi Academy Foundation and used students’ online learning records on Junyi Academy Platform to analyze their learning patterns. By doing so, we speculated students’ personality traits to know their personalities rather than just judging them by their scores of exams. For students, we can arrange an appropriate guidance to them according to their personalities. For companies, they can determine whether the student’s personality is consistent with the job needs when the student is applying the job.",
+    "link": "https://www.junyiacademy.org",
+    "img": "junyi",
     "partners": ["台南市政府"]
   }
 ]
