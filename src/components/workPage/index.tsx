@@ -6,7 +6,7 @@ import Project from './project';
 import projects from './projects.json';
 
 const WorkPageContainer: React.FC = () => {
-  const [year, setYear] = useState<number>(2015);
+  const [year, setYear] = useState<number>(2021);
 
   const createProjects = projects
     .filter((d) => d.year === year)
