@@ -27,6 +27,7 @@
   @include flex(column, space-between, flex-start);
   width: 55%;
   color: $text-default;
+  align-self: flex-start;
   // border: red solid 1px;
 
   p {
