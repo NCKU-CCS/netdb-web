@@ -35,10 +35,12 @@ const Project: React.FC<IProps> = ({
             className={classNames('workpage-project-text-header-right-name')}
           >
             {name}
-            <img
-              alt="fb"
-              src={`${process.env.PUBLIC_URL}/workPage/website.png`}
-            />
+            <a href={link}>
+              <img
+                alt="fb"
+                src={`${process.env.PUBLIC_URL}/workPage/website.png`}
+              />
+            </a>
           </div>
         </div>
       </div>
