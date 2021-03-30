@@ -58,7 +58,7 @@ const Project: React.FC<IProps> = ({
           {partners.map((d) => (
             <img
               alt={d}
-              src={`${process.env.PUBLIC_URL}/workPage/partners/台南市政府.jpg`}
+              src={`${process.env.PUBLIC_URL}/workPage/partners/${d}`}
             />
           ))}
         </div>

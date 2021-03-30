@@ -7,7 +7,7 @@
     "introduction": "Some Netdbers organized the TaiwanStat community and delivered the knowledge of data understanding to people. Currently, the data sources pick from Open Data which are provided by the Taiwan government. We also have some academic collaborations. On Facebook, we have a fan page with more than 22K members (2015/8).",
     "link": "https://www.taiwanstat.com/",
     "img": "taiwan-stat",
-    "partners": ["台南市政府"]
+    "partners": ["tainan.jpg"]
   },
   {
     "name": "The Mosquito Man",
@@ -17,7 +17,7 @@
     "introduction": "In the years when the severe outbreak of dengue fever is in Tainan, we cooperated with the Tainan government and proposed “Epidemic Prevention by Science and Technology”in the first instance. In the early stage of the project, through the mosquito man APP, we integrated the government information and let people report the mosquito activity. In addition, we let people know about dengue fever and the epidemic prevention information through the visualization of data. We also cooperated with Media Tek and deployed a large number of smart mosquito traps and egg traps to collect the high-density places of mosquitoes. Besides, we could know the dengue fever epidemic in advance through data analysis.",
     "link": "https://www.facebook.com/themosquitoman/",
     "img": "the-mosquito-man",
-    "partners": ["台南市政府"]
+    "partners": ["MediaTek.jpg"]
   },
   {
     "name": "JunYi Academy",
@@ -27,7 +27,7 @@
     "introduction": "We cooperated with Junyi Academy Foundation and used students’ online learning records on Junyi Academy Platform to analyze their learning patterns. By doing so, we speculated students’ personality traits to know their personalities rather than just judging them by their scores of exams. For students, we can arrange an appropriate guidance to them according to their personalities. For companies, they can determine whether the student’s personality is consistent with the job needs when the student is applying the job.",
     "link": "https://www.junyiacademy.org",
     "img": "junyi",
-    "partners": ["台南市政府"]
+    "partners": ["Junyi.png"]
   },
   {
     "name": "Smart Home Security Platform",
@@ -37,7 +37,7 @@
     "introduction": "In this project, to achieve the purpose of home care, we proposed a model to extract elders’ behavior patterns at home from the sensor data which do not invade their privacy, such as the use of electrical appliance and the door switches to detect any abnormal behavior. In addition, we also analyzed the open data released by the government through the technology of heterogeneous data analysis and proposed applications of home security.",
     "link": null,
     "img": "smart-home-security-platform",
-    "partners": ["台南市政府"]
+    "partners": ["ITRI.png"]
   },
   {
     "name": "Refinement of Finance Prediction Model",
@@ -47,7 +47,7 @@
     "introduction": "In this project, we proposed a comprehensive optimization strategy and design for ARIMA. We mainly considered that the ARIMA computing module is applied in cloud service. This cloud service can provide a fast ARIMA computing module for a large number of users. Besides, we need to explore the optimal computing strategy in different application scenarios through this computing module.",
     "link": null,
     "img": "apex",
-    "partners": ["台南市政府"]
+    "partners": ["APEX.png"]
   },
   {
     "name": "Variations of body surface temperature as individualized risk assessment of malaise",
@@ -57,7 +57,7 @@
     "introduction": "Continuously monitoring the changes of body temperature was thought to identify the infectious diseases and the occurrence of poor prognosis. In addition, it could detect the occurrence of infectious diseases and predict the possibility of clustering, furthermore, it could reduce poor prognosis and comorbidities. We collected huge amounts of data through the smart IoT devices. Besides, we established the indicators of individualized discomfort risk based on the changes of individual’s body temperature and discomfort as reference for the strategies of infectious diseases prevention.",
     "link": null,
     "img": "body-surface-temp",
-    "partners": ["台南市政府"]
+    "partners": ["NHRI.png"]
   },
   {
     "name": "HAPPig",
@@ -67,7 +67,7 @@
     "introduction": "In this project, we proposed a pig’s health analyzing system that combines artificial intelligence and the Internet of Things for livestock. This system introduces technologies such as smart Internet of Things (IoT) monitoring, artificial intelligence, image recognition, big data analysis and chatbot into the pig farming industry, named as HAPPig system. Instead of farmers, this system can monitor the pigs to reduce the labor costs of traditional labor-intensive pig farming. Furthermore, we used artificial intelligence to predict the physiological status of pigs and significantly reduce the risk of diseases and infections. All of the information and abnormal notification will present on the mobile devices or the webpage to farmers or managers.",
     "link": null,
     "img": "happig",
-    "partners": ["台南市政府"]
+    "partners": ["MOST.svg"]
   },
   {
     "name": "Coding-X",
@@ -77,7 +77,7 @@
     "introduction": "In this project, we aim to train the students who are not founded in Department of Computer Science and Information Engineering to obtain the skills of software and train them to create a project through the mentoring system. Furthermore, they would become the top digital cross-domain problem solver.",
     "link": "https://www.facebook.com/X-Village-423736361424301/",
     "img": "coding-x",
-    "partners": ["台南市政府"]
+    "partners": []
   },
   {
     "name": "Big Data Analysis Alliance Center",
@@ -87,7 +87,7 @@
     "introduction": "This project is mainly promoted in the field of data science and big data. It focuses on the smart innovation and people training. The goal is to combine the teachers, professionals, and students from each country, each school and each field to achieve the objective of training people in the field of data science.",
     "link": "https://www.facebook.com/nckutsoc.tw/",
     "img": "itsa",
-    "partners": ["台南市政府"]
+    "partners": ["MOE.svg"]
   },
   {
     "name": "A smart wristband and its cloud-based service platform",
@@ -97,7 +97,7 @@
     "introduction": "We developed smart epidemic prevention bracelets and cloud service platforms with technology manufacturers. The goal is to promote smart epidemic prevention and build applications and services of early warning system for epidemic prevention in the context of IoT and big data. In addition to the instant and massive physiological monitoring of public, the integration of cloud platform, smart epidemic prevention bracelets and AI effectively predicted and implemented epidemic prevention to high-risk areas. To avoid spend extra manpower and money after the outbreak of epidemic, we combined with industry, government and academia to develop smart epidemic prevention strategies with AI and IoT.",
     "link": "https://www.ettoday.net/news/20191126/1588275.htm",
     "img": "smart-wrist",
-    "partners": ["台南市政府"]
+    "partners": ["MOST.svg"]
   },
   {
     "name": "Blockchain-driven data marketplace",
@@ -107,7 +107,7 @@
     "introduction": "This project aims at developing a data marketplace (DMP). It is a platform which enables convenient buying and selling of data. The objective of this project is to satisfy the demand for data while giving back reasonable reward to the data provider. The demand for data comes from different domains nowadays, such as marketing, research and product pipeline optimization. The whole trading process carries out in the distributed ledger system. Therefore, transparency, security and fairness can be guaranteed. Meanwhile, the transaction fees can be minimized because of the absence of third-party organization. The vision of DMP is to improve the liquidity of data so that more data can be utilized by different entities.",
     "link": null,
     "img": "data-marketplace",
-    "partners": ["台南市政府"]
+    "partners": ["MOE.svg"]
   },
   {
     "name": "Energy Trading Platform",
@@ -117,7 +117,7 @@
     "introduction": "The main goal of the Energy Trading Platform is to enable Energy Trading and Demand Response (DR) through the decentralization of distributed ledger technology and the immutability of data. The energy production and consumption data collected by BEMS through AMI and all transactions data from this platform will be recorded on the Ethereum blockchain and IOTA Tangle. Comparing to the traditional platform, Energy Trading Platform saves the high cost of hardware and ensures the data security. Besides, there will be a demonstration in Shalun Smart Green Energy Science City and the POC will also be conducted. This platform provides the following two services: Energy Trading – It is an Energy Bidding about the renewable energy in the Building Energy Management System. The extra energy electricity can be effectively used in buildings. Demand Bidding – The participants of this platform conduct Demand Bidding with Taiwan Power Company (TPC) via the aggregators and record the saved electricity and rewards.",
     "link": "https://et.udc-service.io/",
     "img": "energy-trading-platform",
-    "partners": ["台南市政府"]
+    "partners": ["MOST.svg"]
   },
   {
     "name": "Utility Data Collection Platform",
@@ -127,7 +127,7 @@
     "introduction": "Utility Data Collection (UDC) is a new generation of intelligent energy project which cooperated with TEPCO to demonstrate the view of future residential community. The purpose of this project is to build an UDC system to collect, retrieve, manipulate the data, includes meter data, sensor data, appliance data and weather data from Demo Site which is in Zone D of Shalun Smart Green Energy Science City. We build high throughput, high availability and high compatibility data pipeline to act as a communication bridge between household, different vendor and Energy Service Company (ESCO), TEPCO in this case. UDC system is mainly created for data analytics and innovates the new style of ancillary services, such as Quality of Life (QoL) services. Besides, different experiment data will also be collected from the testing field for further investigation.",
     "link": null,
     "img": "udc",
-    "partners": ["台南市政府"]
+    "partners": ["TEPCO.svg", "TokyoGas.svg", "Azbil.jpeg", "NextDrive.jpg"]
   },
   {
     "name": "Quality of Life Services",
@@ -137,7 +137,7 @@
     "introduction": "The “Quality of Life Services” is originated from the conception of Utility 3.0 in Japan. The goal of it is to develop various services that can improve the quality of life by analyzing the data collected by UDC, including the water meters, the electricity meters and the gas meters. Quality of Life Services” includes the following: Smart home – By optimizing appliances, the smart home can help the users to save energy costs and live comfortably. Water leakage detection – Real-time monitoring for possible water leakage through the water meter data. Health care – It is used in hospitals and care centers. By recording a person’s blood pressure, pulse and his behaviors, the caregivers will be warned if there is an abnormality. In addition, it can help the deliveryman to know that the customer is at home or not while delivering through data analysis.",
     "link": null,
     "img": "qol",
-    "partners": ["台南市政府"]
+    "partners": ["TEPCO.svg", "TokyoGas.svg", "Azbil.jpeg", "NextDrive.jpg"]
   },
   {
     "name": "Digital Certificate of Degree",
@@ -147,7 +147,7 @@
     "introduction": "This project is led by Department of Higher Education. The goal is to establish a system for issuing the digital degree certificates by colleges and universities in Taiwan. In the first phase of the project, NCKU was the main developer and the three other universities participated in the trial of issuing digital certificates. We solved the problems of forgery, lost and verification caused by the traditional paper certificates. Through the introduction of blockchain technology, we created a digital certificate system that can not be tampered with, can be quickly checked and is easy to save. It would effectively reduce the verifying costs of human resources and reduce the losses due to the traditional paper certificates.",
     "link": null,
     "img": "digital-cert",
-    "partners": ["台南市政府"]
+    "partners": ["HigherEducationOfMoE.png"]
   },
   {
     "name": "AWS JIC",
@@ -157,7 +157,7 @@
     "introduction": "The International Program of AWS Joint Innovation Center (abbr. JIC) is a unique and cost-effective platform that strives to provide foreign startups with comprehensive resources and rich experiences and empower them for future growth. Our mission is to build and develop the best-of-breed and multi-national incubator ecosystem with a strong focus on AWS Cloud by equipping JICs with wide-ranging resources (mentors, VC network, marketing channel, and cloud computing resources) and enable the innovative startups to develop and extend their businesses globally. The collective work from AWS and our program stakeholders ensured the maximum convenience of global startups and international companies to join the JIC.",
     "link": null,
     "img": "aws-jic",
-    "partners": ["台南市政府"]
+    "partners": ["AWS.svg", "FET.jpeg"]
   },
   {
     "name": "Water Leakage Detection for Insurance Company",
@@ -167,7 +167,7 @@
     "introduction": "The Water Leakage Detection Service aims to provide real-time detection of the water usage and notify users through a LineBot system when there exists a water leakage. The goal of this service is to reduce the settlement amount (for which the insurance company needs to pay) and avoid causing damages to water pipes. The tests of this service will be conducted in an experimental field located in Shalun, Taiwan. By evaluating the test results in Shalun, the water leakage detection system can be optimized and be applied to real residences in Japan.",
     "link": null,
     "img": "water-leakage",
-    "partners": ["台南市政府"]
+    "partners": ["TEPCO.svg", "Azbil.jpeg"]
   },
   {
     "name": "Occupancy Detection for Logistics Routing Schedule",
@@ -177,7 +177,7 @@
     "introduction": "The arise of fast parcel delivery has led to anytime-anywhere online shopping for everyone. However, due to the unknown of household occupancy, traditional parcel delivery is generally not very effective. Therefore, we address an important issue on the exploration of optimal delivery routes using household occupancy detection. We develop a novel routing framework by borrowing the strengths of household occupancy detection from electricity consumption. Our experimental studies on real datasets show that the proposed framework can effectively and efficiently discover optimal delivery routes with precise occupancy detection model.",
     "link": null,
     "img": "occupancy-detection",
-    "partners": ["台南市政府"]
+    "partners": ["TEPCO.svg", "NextDrive.jpg"]
   },
   {
     "name": "Battery Charging Scheduling",
@@ -187,7 +187,7 @@
     "introduction": "Towards to zero-energy house in the future, battery in house plays a vital role in a smart home. Automatic battery charging scheduling will become necessary to lower the electricity cost and control the operation of the battery. By utilizing the historical data of photovoltaic (PV), energy storage system (ESS) and electricity usage, scheduling aims to select the optimal timing for battery charging and discharging and decide an optimal battery level. In order to calculate an optimal schedule, occupancy detection, PV prediction and behavior analysis are included in this framework.",
     "link": null,
     "img": "battery-scheduling",
-    "partners": ["台南市政府"]
+    "partners": ["NextDrive.jpg", "TohokuElectricPower.svg"]
   },
   {
     "name": "Coupon-based Demand Response",
@@ -197,7 +197,7 @@
     "introduction": "Coupon-based demand response is an incentive-method, which induces the end-use customer to lower the electricity use for ensuring the stability of electricity system. The power company cooperates with the businesses surrounding by the community, and these business operators provide the coupon to the power company. Then, the power company can induce the residents to go out by delivering the coupons. Electricity load of a community can be reduced when the residents go out for using the coupons. In order to increase the willing-to-go of residents, precise residents interest prediction and load forecasting are necessary. Moreover, the dispatch strategy of coupon delivering should be considered for optimizing the cost of the power company.",
     "link": null,
     "img": "coupon-based-dr",
-    "partners": ["台南市政府"]
+    "partners": ["TaiPower.svg"]
   },
   {
     "name": "Demand-Response Round-robin Scheduling for Air Conditioners",
@@ -207,7 +207,7 @@
     "introduction": "Demand-response round-robin scheduling service for air conditioners is one of the advanced QoL-service. This service targets on reducing the peak demand of a building by utilizing round robin scheduling technique. Different A/C will be scheduled for several set points temperature to achieve energy-efficiency and cost-efficiency. Depends on indoor temperature, outdoor temperature, occupancy status, the optimal A/C operations will be calculated. In order to provide a comfortable environment to occupants, the scheduling service considers the occupants' preference. Therefore, this service can reduce the energy consumption without sacrifice the occupants' comfort while the DR period.",
     "link": null,
     "img": "ac-scheduling",
-    "partners": ["台南市政府"]
+    "partners": ["TEPCO.svg"]
   },
   {
     "name": "Electric Scooter Battery Exchange Station EMS & Ledger Service",
@@ -217,7 +217,7 @@
     "introduction": "Electrification is the future trend of mobility. Supplying a full-charged battery for electric vehicles will become a significant issue. Electric scooter battery exchange stations provide drivers a convenient service. For maximize the usage of battery, battery in abandon scooters can be used for temporal power storage for community. Trusted NB-IoT enable the trusted green energy grid. Ensure the data integrity and create the green energy credential to form  the REC.",
     "link": null,
     "img": "battery-station-ems",
-    "partners": ["台南市政府"]
+    "partners": ["CPC.svg", "FET.jpeg", "Biilabs.png"]
   },
   {
     "name": "Sister City Blockchain Service",
@@ -227,7 +227,7 @@
     "introduction": "By integrating digital identity (TangleID) to the “Aizuwakamatsu + Tainan” app, Sister City Blockchain Service can provide free tram ride, discount coupons for souvenir and restaurant to the travelers from Aizuwakamatsu and Tainan. TangleID gives the travelers a unique identity to transform digital footprints into property. Therefore, traveler can benefit from the TangleID which is a decentralized identifier. They can be recognized the identity of citizen by businesses in Aizuwakamatsu and Tainan quickly and easily.",
     "link": null,
     "img": "sister-city-blockchain",
-    "partners": ["台南市政府"]
+    "partners": ["FET.jpeg", "Biilabs.png", "MUFG.svg"]
   },
   {
     "name": "Medical Case Record/Insurance Claims Blockchain",
@@ -237,7 +237,7 @@
     "introduction": "Medical receipts and certificates are made of paper in the past. It is inefficiency for processing the insurance claim and it wastes too many papers. Besides, it is not secure to the owner because these paper certificates are easily to be seen. To deal with these problems, medical case record/insurance claims blockchain can safely and systematically record the medical certificates and receipts. We leverage the ‘Proof of Existence’ characteristic of blockchain to accelerate the process of the insurance claim and secure the patient’s medical certificate.",
     "link": null,
     "img": "medical-insurance-blockchain",
-    "partners": ["台南市政府"]
+    "partners": ["NCKUHospital.svg", "Cathay.svg", "Biilabs.png", "ITRI.png"]
   },
   {
     "name": "Blockchain-based Industrial Chemical Tracking System",
@@ -247,6 +247,6 @@
     "introduction": "Industrial chemical can damage the nature if the processing method is illegal. To avoid this environmental problem, blockchain-based industrial chemical tracking system can help chemical to build a digital footprint through the blockchain. This system enables the trust of supply chain which allows every involved party to track the industrial chemical. Therefore, the operator can save the management cost and simplify the packing process.",
     "link": null,
     "img": "chemical-blockchain",
-    "partners": ["台南市政府"]
+    "partners": ["Biilabs.png", "SimEnvi.png"]
   }
 ]
