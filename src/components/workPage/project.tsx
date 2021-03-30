@@ -26,7 +26,10 @@ const Project: React.FC<IProps> = ({
     <div className={classNames('workpage-project')}>
       <div className={classNames('workpage-project-text')}>
         <div className={classNames('workpage-project-text-header')}>
-          <img alt="eye" src={`${process.env.PUBLIC_URL}/workPage/eye.svg`} />
+          <img
+            alt="eye"
+            src={`${process.env.PUBLIC_URL}/workPage/${type}.svg`}
+          />
           <div className={classNames('workpage-project-text-header-right')}>
             <div
               className={classNames(
