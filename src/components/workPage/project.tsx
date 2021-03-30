@@ -28,7 +28,7 @@ const Project: React.FC<IProps> = ({
         <div className={classNames('workpage-project-text-header')}>
           <img
             alt={type}
-            src={`${process.env.PUBLIC_URL}/workPage/${type}.svg`}
+            src={`${process.env.PUBLIC_URL}/workPage/projectIcon/${type}.svg`}
           />
           <div className={classNames('workpage-project-text-header-right')}>
             <div
@@ -63,7 +63,10 @@ const Project: React.FC<IProps> = ({
           ))}
         </div>
       </div>
-      <img alt={img} src={`${process.env.PUBLIC_URL}/workPage/${img}.png`} />
+      <img
+        alt={img}
+        src={`${process.env.PUBLIC_URL}/workPage/projectPic/${img}.png`}
+      />
     </div>
   </div>
 );
