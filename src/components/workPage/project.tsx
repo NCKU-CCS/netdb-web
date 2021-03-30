@@ -28,7 +28,7 @@ const Project: React.FC<IProps> = ({
         <div className={classNames('workpage-project-text-header')}>
           <img
             alt={type}
-            src={`${process.env.PUBLIC_URL}/workPage/projectIcon/${type}.svg`}
+            src={`${process.env.PUBLIC_URL}/workPage/icons/${type}.svg`}
           />
           <div className={classNames('workpage-project-text-header-right')}>
             <div
@@ -58,14 +58,14 @@ const Project: React.FC<IProps> = ({
           {partners.map((d) => (
             <img
               alt={d}
-              src={`${process.env.PUBLIC_URL}/workPage/台南市政府.jpg`}
+              src={`${process.env.PUBLIC_URL}/workPage/partners/台南市政府.jpg`}
             />
           ))}
         </div>
       </div>
       <img
         alt={img}
-        src={`${process.env.PUBLIC_URL}/workPage/projectPic/${img}.png`}
+        src={`${process.env.PUBLIC_URL}/workPage/pics/${img}.png`}
       />
     </div>
   </div>
