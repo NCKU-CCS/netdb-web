@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/netdb-web/static/css/main.125c74a0.chunk.css",
-    "main.js": "/netdb-web/static/js/main.dafbb268.chunk.js",
-    "main.js.map": "/netdb-web/static/js/main.dafbb268.chunk.js.map",
-    "runtime-main.js": "/netdb-web/static/js/runtime-main.7adfd6c9.js",
-    "runtime-main.js.map": "/netdb-web/static/js/runtime-main.7adfd6c9.js.map",
+    "main.css": "/netdb-web/static/css/main.533a01c4.chunk.css",
+    "main.js": "/netdb-web/static/js/main.cfa3b104.chunk.js",
+    "main.js.map": "/netdb-web/static/js/main.cfa3b104.chunk.js.map",
+    "runtime-main.js": "/netdb-web/static/js/runtime-main.b0241b5c.js",
+    "runtime-main.js.map": "/netdb-web/static/js/runtime-main.b0241b5c.js.map",
     "static/css/2.eb43dee1.chunk.css": "/netdb-web/static/css/2.eb43dee1.chunk.css",
-    "static/js/2.bbac0dc4.chunk.js": "/netdb-web/static/js/2.bbac0dc4.chunk.js",
-    "static/js/2.bbac0dc4.chunk.js.map": "/netdb-web/static/js/2.bbac0dc4.chunk.js.map",
-    "static/js/3.8843927b.chunk.js": "/netdb-web/static/js/3.8843927b.chunk.js",
-    "static/js/3.8843927b.chunk.js.map": "/netdb-web/static/js/3.8843927b.chunk.js.map",
+    "static/js/2.af68a8e5.chunk.js": "/netdb-web/static/js/2.af68a8e5.chunk.js",
+    "static/js/2.af68a8e5.chunk.js.map": "/netdb-web/static/js/2.af68a8e5.chunk.js.map",
+    "static/js/3.cf48e535.chunk.js": "/netdb-web/static/js/3.cf48e535.chunk.js",
+    "static/js/3.cf48e535.chunk.js.map": "/netdb-web/static/js/3.cf48e535.chunk.js.map",
     "index.html": "/netdb-web/index.html",
-    "precache-manifest.2a290d29b5d87da0c805d153cbe1e0f0.js": "/netdb-web/precache-manifest.2a290d29b5d87da0c805d153cbe1e0f0.js",
+    "precache-manifest.31b5244e1dfb71b0fd7fc7cbaa8b2296.js": "/netdb-web/precache-manifest.31b5244e1dfb71b0fd7fc7cbaa8b2296.js",
     "service-worker.js": "/netdb-web/service-worker.js",
     "static/css/2.eb43dee1.chunk.css.map": "/netdb-web/static/css/2.eb43dee1.chunk.css.map",
-    "static/css/main.125c74a0.chunk.css.map": "/netdb-web/static/css/main.125c74a0.chunk.css.map",
-    "static/js/2.bbac0dc4.chunk.js.LICENSE.txt": "/netdb-web/static/js/2.bbac0dc4.chunk.js.LICENSE.txt"
+    "static/css/main.533a01c4.chunk.css.map": "/netdb-web/static/css/main.533a01c4.chunk.css.map",
+    "static/js/2.af68a8e5.chunk.js.LICENSE.txt": "/netdb-web/static/js/2.af68a8e5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7adfd6c9.js",
+    "static/js/runtime-main.b0241b5c.js",
     "static/css/2.eb43dee1.chunk.css",
-    "static/js/2.bbac0dc4.chunk.js",
-    "static/css/main.125c74a0.chunk.css",
-    "static/js/main.dafbb268.chunk.js"
+    "static/js/2.af68a8e5.chunk.js",
+    "static/css/main.533a01c4.chunk.css",
+    "static/js/main.cfa3b104.chunk.js"
   ]
 }
