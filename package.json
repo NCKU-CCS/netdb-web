@@ -1,6 +1,6 @@
 {
   "name": "netdb-web",
-  "homepage": "https://NCKU-CCS.github.io/netdb-web",
+  "homepage": "https://ncku-ccs.github.io/netdb-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
