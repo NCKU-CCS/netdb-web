@@ -1,5 +1,6 @@
 {
   "name": "netdb-web",
+  "homepage": "https://NCKU-CCS.github.io/netdb-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,7 @@
     "@types/react-router-dom": "^5.1.7",
     "aos": "^3.0.0-beta.6",
     "classnames": "^2.2.6",
+    "gh-pages": "^3.2.3",
     "node-sass": "4.14.0",
     "normalize.css": "^8.0.1",
     "react": "^17.0.1",
@@ -28,7 +30,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src/ --ext .tsx"
+    "lint": "eslint src/ --ext .tsx",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
