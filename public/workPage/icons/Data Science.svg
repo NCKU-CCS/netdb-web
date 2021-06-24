@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 53 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-4605,0)">
+        <g id="Projecticon_dataScience" transform="matrix(0.0361111,0,0,0.0577778,4605.11,0)">
+            <rect x="0" y="0" width="1440" height="900" style="fill:none;"/>
+            <g transform="matrix(27.6923,0,0,17.3077,-124109,0)">
+                <circle cx="4507.7" cy="26" r="26" style="fill:rgb(89,217,172);"/>
+            </g>
+            <g transform="matrix(0.330115,0,0,0.317959,307.718,243.019)">
+                <g transform="matrix(30.8973,0,0,18.6603,-12443.3,-9074.03)">
+                    <rect x="405.961" y="486.275" width="20.084" height="69.77" style="fill:white;"/>
+                </g>
+                <g transform="matrix(30.8973,0,0,11.39,-11604.5,-5031.41)">
+                    <rect x="405.961" y="486.275" width="20.084" height="69.77" style="fill:white;"/>
+                </g>
+                <g transform="matrix(30.8973,0,0,16.4773,-10765.7,-7860.19)">
+                    <rect x="405.961" y="486.275" width="20.084" height="69.77" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

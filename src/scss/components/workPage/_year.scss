@@ -1,0 +1,102 @@
+$button-width: 90px;
+
+.workpage-year {
+  @include flex(column, center, flex-end);
+  width: 100%;
+  padding: 1rem 5%;
+
+  h5 {
+    align-self: flex-start;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: $text-green;
+  }
+}
+
+.workpage-year-buttons {
+  position: relative;
+
+  > button {
+    cursor: pointer;
+    width: $button-width;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: $text-grey;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+
+    &.chosen {
+      color: $text-green;
+    }
+  }
+
+  > .workpage-year-bar {
+    position: absolute;
+    bottom: 0;
+    width: $button-width - 30px;
+    height: 5px;
+    color: transparent;
+    background-color: #59d9ac;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+  }
+
+  // :nth-child(1):hover~.workpage-year-bar {
+  //   left: 15px;
+  // }
+
+  // :nth-child(2):hover~.workpage-year-bar {
+  //   left: 15px + $button-width;
+  // }
+
+  // :nth-child(3):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 2;
+  // }
+
+  // :nth-child(4):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 3;
+  // }
+
+  // :nth-child(5):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 4;
+  // }
+
+  // :nth-child(6):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 5;
+  // }
+
+  // :nth-child(7):hover~.workpage-year-bar {
+  //   left: 15px + $button-width * 6;
+  // }
+}
+
+.workpage-year-bar--2021 {
+  left: 15px;
+}
+
+.workpage-year-bar--2020 {
+  left: 15px + $button-width;
+}
+
+.workpage-year-bar--2019 {
+  left: 15px + $button-width * 2;
+}
+
+.workpage-year-bar--2018 {
+  left: 15px + $button-width * 3;
+}
+
+.workpage-year-bar--2017 {
+  left: 15px + $button-width * 4;
+}
+
+.workpage-year-bar--2016 {
+  left: 15px + $button-width * 5;
+}
+
+.workpage-year-bar--2015 {
+  left: 15px + $button-width * 6;
+}

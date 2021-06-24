@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-4676,0)">
+        <g id="Projecticon_DLT" transform="matrix(0.0361111,0,0,0.0577778,4675.92,0)">
+            <rect x="0" y="0" width="1440" height="900" style="fill:none;"/>
+            <g transform="matrix(27.6923,0,0,17.3077,-124109,0)">
+                <circle cx="4507.7" cy="26" r="26" style="fill:rgb(89,217,172);"/>
+            </g>
+            <g transform="matrix(20.7271,0,0,12.9544,-3854.35,-8663.13)">
+                <g transform="matrix(0.314849,-0.181778,2.01815e-17,0.419799,-61.1563,584.875)">
+                    <rect x="899.656" y="675.21" width="60.417" height="52.326" style="fill:white;"/>
+                </g>
+                <g transform="matrix(0.320397,0.184981,-4.1074e-17,0.427195,-88.3576,238.652)">
+                    <rect x="899.656" y="675.21" width="60.417" height="52.326" style="fill:white;"/>
+                </g>
+                <g transform="matrix(0.327811,-0.189262,0.378524,0.218541,-349.613,714.046)">
+                    <rect x="899.656" y="675.21" width="60.417" height="52.326" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

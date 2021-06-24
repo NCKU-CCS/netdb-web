@@ -6,7 +6,7 @@ import Research from './research';
 import Service from './service';
 import Application from './application';
 
-const HomePageContainer = () => (
+const HomePageContainer: React.FC = () => (
   <>
     <Intro />
     <Partner />
