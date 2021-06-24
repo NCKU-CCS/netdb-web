@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/netdb-web/static/css/main.125c74a0.chunk.css",
+    "main.js": "/netdb-web/static/js/main.a9710fd9.chunk.js",
+    "main.js.map": "/netdb-web/static/js/main.a9710fd9.chunk.js.map",
+    "runtime-main.js": "/netdb-web/static/js/runtime-main.7adfd6c9.js",
+    "runtime-main.js.map": "/netdb-web/static/js/runtime-main.7adfd6c9.js.map",
+    "static/css/2.eb43dee1.chunk.css": "/netdb-web/static/css/2.eb43dee1.chunk.css",
+    "static/js/2.bbac0dc4.chunk.js": "/netdb-web/static/js/2.bbac0dc4.chunk.js",
+    "static/js/2.bbac0dc4.chunk.js.map": "/netdb-web/static/js/2.bbac0dc4.chunk.js.map",
+    "static/js/3.8843927b.chunk.js": "/netdb-web/static/js/3.8843927b.chunk.js",
+    "static/js/3.8843927b.chunk.js.map": "/netdb-web/static/js/3.8843927b.chunk.js.map",
+    "index.html": "/netdb-web/index.html",
+    "precache-manifest.bcb70eb6466cc43d2c8bbf3254920cbe.js": "/netdb-web/precache-manifest.bcb70eb6466cc43d2c8bbf3254920cbe.js",
+    "service-worker.js": "/netdb-web/service-worker.js",
+    "static/css/2.eb43dee1.chunk.css.map": "/netdb-web/static/css/2.eb43dee1.chunk.css.map",
+    "static/css/main.125c74a0.chunk.css.map": "/netdb-web/static/css/main.125c74a0.chunk.css.map",
+    "static/js/2.bbac0dc4.chunk.js.LICENSE.txt": "/netdb-web/static/js/2.bbac0dc4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7adfd6c9.js",
+    "static/css/2.eb43dee1.chunk.css",
+    "static/js/2.bbac0dc4.chunk.js",
+    "static/css/main.125c74a0.chunk.css",
+    "static/js/main.a9710fd9.chunk.js"
+  ]
+}
