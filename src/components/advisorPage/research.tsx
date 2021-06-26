@@ -7,12 +7,12 @@ const Research: React.FC = () => (
     <section>
       <h4>Research Interest</h4>
       <ul className={classNames('advisorpage-research-interest-list')}>
-        <li> • Data Mining</li>
-        <li> • Web Intelligence</li>
-        <li> • Database</li>
-        <li> • Distributed Ledger Technology</li>
-        <li> • Cloud Computing</li>
-        <li> • Intelligent Engine Management</li>
+        <li>Data Mining</li>
+        <li>Web Intelligence</li>
+        <li>Database</li>
+        <li>Distributed Ledger Technology</li>
+        <li>Cloud Computing</li>
+        <li>Intelligent Engine Management</li>
       </ul>
     </section>
     <section>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 
@@ -7,15 +7,22 @@ interface IProps {
   name: string;
 }
 
-const NavLink: React.FC<IProps> = ({ path, name }) => (
-  <Link
-    to={path}
-    className={classNames(
-      `${window.location.pathname === path ? 'selected' : ''}`,
-    )}
-  >
-    {name}
-  </Link>
-);
+const NavLink: React.FC<IProps> = ({ path, name }) => {
+  const [selected, setSelected] = useState(false);
+
+  useEffect(() => {
+    if (path === '/' && window.location.pathname === '/netdb-web/') {
+      setSelected(true);
+    } else if (path !== '/' && window.location.pathname.includes(path)) {
+      setSelected(true);
+    } else setSelected(false);
+  }, [window.location.pathname]);
+
+  return (
+    <Link to={path} className={classNames(`${selected ? 'selected' : ''}`)}>
+      {name}
+    </Link>
+  );
+};
 
 export default NavLink;
