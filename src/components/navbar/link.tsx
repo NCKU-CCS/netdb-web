@@ -16,7 +16,7 @@ const NavLink: React.FC<IProps> = ({ path, name }) => {
     } else if (path !== '/' && window.location.pathname.includes(path)) {
       setSelected(true);
     } else setSelected(false);
-  }, [window.location.pathname]);
+  }, [path]);
 
   return (
     <Link to={path} className={classNames(`${selected ? 'selected' : ''}`)}>
