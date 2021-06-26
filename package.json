@@ -30,7 +30,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src/ --ext .tsx",
+    "stylelint": "stylelint src/scss/**/*.scss --syntax scss --fix",
+    "eslint": "eslint src/ --ext .tsx",
+    "lint": "stylelint src/scss/**/*.scss --syntax scss --fix && eslint src/ --ext .tsx",
     "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
   },
@@ -58,21 +60,28 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "4.2.5",
     "lint-staged": "10.1.7",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run lint && lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.{ts,tsx,js,json,css,md}": [
+    "src/**/*.scss": [
+      "stylelint src/scss/**/*.scss --syntax scss --fix"
+    ],
+    "src/**/*.{tsx}": [
+      "eslint src/ --ext .tsx"
+    ],
+    "src/**/*.{ts,tsx,json,scss,md}": [
       "prettier --write"
     ]
-  },
-  "prettier": {
-    "singleQuote": true,
-    "jsxSingleQuote": false,
-    "trailingComma": "all"
   }
 }

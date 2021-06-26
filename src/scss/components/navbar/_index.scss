@@ -2,9 +2,9 @@
 @import './links';
 
 .navbar-container {
-  height: 10%;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  height: 10%;
+  flex-direction: row;
 }

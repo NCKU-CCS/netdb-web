@@ -1,27 +1,27 @@
 .homepage-intro {
-  width: 100%;
-  height: 140%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
   padding-right: 1%;
+  width: 100%;
+  height: 140%;
 
   img {
-    z-index: 0;
     width: 80%;
     height: 100%;
+    z-index: 0;
     object-fit: contain;
     object-position: right;
   }
 }
 
 .homepage-intro-title-container {
-  z-index: 1;
-  width: 20%;
-  padding-left: 3%;
-  padding-top: 10%;
   display: flex;
+  padding-top: 10%;
+  padding-left: 3%;
+  width: 20%;
   height: 90vh;
+  z-index: 1;
   flex-direction: column;
 }
 
@@ -29,22 +29,18 @@
   width: 300%;
   font-size: 4rem;
   font-weight: bolder;
-  line-height: 4.5rem;
-  background: linear-gradient(
-      to right,
-      #4fc49b,
-      #59d9ac
-    );
-  background-clip: text;
+  background: linear-gradient(to right, #4fc49b, #59d9ac);
   -webkit-background-clip: text;
+  background-clip: text;
+  line-height: 4.5rem;
   -webkit-text-fill-color: transparent;
 }
 
 .homepage-intro-subtitle {
-  width: 200%;
   margin-top: 5%;
+  width: 200%;
   font-size: 1.2rem;
   font-weight: bolder;
-  line-height: 1.7rem;
   color: #4fc49b;
+  line-height: 1.7rem;
 }
