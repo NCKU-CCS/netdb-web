@@ -1,19 +1,19 @@
 .footer-links {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.8rem;
   padding-top: 5%;
   padding-right: 7%;
   padding-left: 7%;
+  font-size: 0.8rem;
+  flex-direction: row;
 
   a {
     color: #4d4d4d;
 
     &.selected {
-      color: #50b58e;
       font-weight: bolder;
+      color: #50b58e;
     }
   }
 }

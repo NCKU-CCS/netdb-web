@@ -1,12 +1,14 @@
 .advisorpage-about {
   @include flex(column, space-between, center);
-  width: 100%;
+
   padding: 3rem 10%;
+  width: 100%;
   background-color: #f7f7f7;
 }
 
 .advisorpage-about-top-container {
   @include flex(row, space-between, center);
+
   width: 100%;
 
   > img {
@@ -17,6 +19,7 @@
 
 .advisorpage-about-top-text {
   @include flex(column, space-evenly, flex-start);
+
   width: 60%;
 
   > h3 {
@@ -35,6 +38,7 @@
 
   > a {
     @include flex(row, flex-start, center);
+
     width: 50%;
     color: $text-grey;
 
@@ -43,8 +47,8 @@
     }
 
     > img {
-      width: 1.3rem;
       margin-right: 1.2rem;
+      width: 1.3rem;
       object-fit: contain;
       object-position: left;
     }
@@ -53,14 +57,15 @@
 
 .advisorpage-about-bottom-container {
   @include flex(column, space-evenly, flex-start);
+
   width: 100%;
 
   > h4 {
     width: 100%;
-    font-weight: bold;
     font-size: 1.5rem;
-    line-height: 3rem;
+    font-weight: bold;
     color: $text-grey;
+    line-height: 3rem;
   }
 
   > p {

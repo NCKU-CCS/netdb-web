@@ -1,7 +1,8 @@
 .advisorpage-education {
   @include flex(column, space-between, flex-start);
-  width: 100%;
+
   padding: 2.5rem 10%;
+  width: 100%;
   background-color: #f7f7f7;
 
   > h3 {
@@ -12,8 +13,8 @@
   }
 
   > section {
-    width: 100%;
     margin-bottom: 0.5rem;
+    width: 100%;
 
     &.advisorpage-education-award-container {
       margin: 0;
@@ -21,17 +22,17 @@
 
     > h4 {
       font-size: 1.5rem;
-      line-height: 3rem;
       font-weight: bold;
       color: $text-default;
+      line-height: 3rem;
     }
 
     > div {
       display: flex;
-      font-size: 1.1rem;
-      line-height: 1.6rem;
       margin-bottom: 1rem;
+      font-size: 1.1rem;
       color: $text-default;
+      line-height: 1.6rem;
 
       &.advisorpage-education-award-content {
         margin-bottom: 0.4rem;
