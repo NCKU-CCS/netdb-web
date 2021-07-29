@@ -4,11 +4,14 @@
   align-items: center;
   margin-top: 2%;
   width: 100%;
-  height: 130%;
   font-size: 2rem;
   font-weight: bolder;
   color: #4d4d4d;
   flex-direction: column;
+}
+
+.homepage-research-title {
+  margin-bottom: 60px;
 }
 
 .homepage-research-domain-container {
@@ -16,4 +19,6 @@
   width: 90%;
   height: 90%;
   grid-template-columns: auto auto;
+  column-gap: 30px;
+  row-gap: 50px;
 }
