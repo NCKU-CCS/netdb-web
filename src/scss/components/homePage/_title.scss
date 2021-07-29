@@ -1,0 +1,28 @@
+.homepage-title {
+  @include flex(column, center, center);
+
+  margin: 100px 0;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .homepage-title {
+    margin: 50px 0;
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .homepage-title {
+    margin: 40px 0;
+  }
+}
