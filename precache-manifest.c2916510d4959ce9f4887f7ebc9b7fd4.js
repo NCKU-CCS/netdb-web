@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b39e1967eec14bab4f4a78a8e9089b0f",
+    "revision": "53bb7cf9f6c4f8804b7acecc03bc1eba",
     "url": "/netdb-web/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/netdb-web/static/css/2.98d1d9d4.chunk.css"
   },
   {
-    "revision": "4643e12ce0dd79af0432",
-    "url": "/netdb-web/static/css/main.562da2b5.chunk.css"
+    "revision": "be075fd75794fcb860b3",
+    "url": "/netdb-web/static/css/main.1ce9958b.chunk.css"
   },
   {
     "revision": "97ef309f04d6a5afb7d7",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/netdb-web/static/js/3.ae1b04be.chunk.js"
   },
   {
-    "revision": "4643e12ce0dd79af0432",
-    "url": "/netdb-web/static/js/main.bb8d815b.chunk.js"
+    "revision": "be075fd75794fcb860b3",
+    "url": "/netdb-web/static/js/main.c951442e.chunk.js"
   },
   {
     "revision": "e10612b95717745926ba",
