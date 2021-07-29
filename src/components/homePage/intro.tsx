@@ -17,6 +17,7 @@ const Intro: React.FC = () => (
       </div>
     </div>
     <img
+      className={classNames('homepage-intro-img')}
       alt="intro"
       src={`${process.env.PUBLIC_URL}/homePage/intro/intro.png`}
       data-aos="fade-left"

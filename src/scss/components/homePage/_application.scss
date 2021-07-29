@@ -6,7 +6,7 @@
   height: 100%;
   flex-direction: row;
 
-  img {
+  > img {
     width: 50%;
     height: 100%;
     object-fit: contain;
@@ -23,7 +23,7 @@
   height: 50%;
   flex-direction: column;
 
-  h3 {
+  > h3 {
     width: 100%;
     font-size: 2rem;
     font-weight: bolder;
@@ -34,19 +34,18 @@
     -webkit-text-fill-color: transparent;
   }
 
-  p {
+  > p {
     width: 100%;
     font-size: 1rem;
-    font-weight: bolder;
     line-height: 2rem;
   }
 
-  ul {
+  > ul {
     width: 100%;
-  }
 
-  li {
-    font-size: 1rem;
-    line-height: 2rem;
+    > li {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
   }
 }

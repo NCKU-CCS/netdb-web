@@ -5,17 +5,17 @@
   align-items: center;
   padding: 2%;
 
-  img {
+  > img {
     width: 30%;
     height: 40%;
     object-fit: contain;
   }
 
-  h3 {
+  > h3 {
     font-size: 1.5rem;
   }
 
-  p {
+  > p {
     width: 85%;
     height: 40%;
     line-height: 2rem;
