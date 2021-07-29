@@ -1,19 +1,40 @@
 .footer-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 5%;
-  padding-right: 7%;
-  padding-left: 7%;
-  font-size: 0.8rem;
-  flex-direction: row;
+  @include flex(row, space-between, center);
+
+  font-size: 1rem;
+  // border: #4d4d4d solid 1px;
 
   a {
+    margin-left: 40px;
     color: #4d4d4d;
 
     &.selected {
       font-weight: bolder;
       color: #50b58e;
+    }
+  }
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .footer-links {
+    > a {
+      margin-left: 20px;
+    }
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .footer-links {
+    @include flex(column, center, flex-start);
+
+    > a {
+      margin: 10px 0;
     }
   }
 }
