@@ -1,8 +1,7 @@
 .homepage-research {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2%;
+  @include flex(row, space-between, center);
+
+  // margin-top: 2%;
   width: 100%;
   font-size: 2rem;
   font-weight: bolder;
@@ -38,6 +37,7 @@
 // size <= 480
 @media all and (max-width: 480px) {
   .homepage-research-domain-container {
+    padding: 0 30px;
     grid-template-columns: 1fr;
     row-gap: 25px;
   }

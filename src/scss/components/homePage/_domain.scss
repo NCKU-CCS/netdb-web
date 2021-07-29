@@ -49,7 +49,12 @@
 
 // size <= 480
 @media all and (max-width: 480px) {
+  .homepage-research-domain {
+    padding: 20px;
+  }
+
   .homepage-research-domain-top-img {
+    margin-bottom: 0;
     height: 80px;
   }
 }

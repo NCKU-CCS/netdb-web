@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from 'classnames';
+// import classNames from 'classnames';
 import Intro from './intro';
 import Partner from './partner';
 import Research from './research';
@@ -11,12 +11,12 @@ const HomePageContainer: React.FC = () => (
     <Intro />
     <Partner />
     <Research />
-    <div
+    {/* <div
       className={classNames('homepage-application-and-service-title')}
       data-aos="fade-up"
     >
       Application ＆ Service
-    </div>
+    </div> */}
     <Service />
     <Application />
   </>
