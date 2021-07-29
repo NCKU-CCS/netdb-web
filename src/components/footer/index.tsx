@@ -6,8 +6,10 @@ import Contact from './contact';
 
 const Footer: React.FC = () => (
   <div className={classNames('footer-container')}>
-    <Title />
-    <Links />
+    <div className={classNames('footer-top-container')}>
+      <Title />
+      <Links />
+    </div>
     <Contact />
   </div>
 );

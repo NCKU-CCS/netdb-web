@@ -1,13 +1,33 @@
 .footer-title {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  padding-top: 7%;
-  padding-left: 7.5%;
-
-  img {
-    width: 38%;
-    height: 30%;
+  > img {
+    width: 180px;
     object-fit: contain;
     object-position: left;
+  }
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .footer-title {
+    > img {
+      width: 150px;
+      object-fit: contain;
+      object-position: left;
+    }
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .footer-title {
+    > img {
+      width: 120px;
+      object-fit: contain;
+      object-position: left;
+    }
   }
 }

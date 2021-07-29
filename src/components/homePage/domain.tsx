@@ -9,12 +9,15 @@ interface IProps {
 
 const Domain: React.FC<IProps> = ({ imgName, title, content }) => (
   <div className={classNames('homepage-research-domain')} data-aos="fade-up">
-    <img
-      alt={imgName}
-      src={`${process.env.PUBLIC_URL}/homePage/research/${imgName}.png`}
-    />
-    <h3>{title}</h3>
-    <p>{content}</p>
+    <div className={classNames('homepage-research-domain-top')}>
+      <h3>{title}</h3>
+      <img
+        className={classNames('homepage-research-domain-top-img')}
+        alt={imgName}
+        src={`${process.env.PUBLIC_URL}/homePage/research/${imgName}.png`}
+      />
+    </div>
+    <p className={classNames('homepage-research-domain-bottom')}>{content}</p>
   </div>
 );
 

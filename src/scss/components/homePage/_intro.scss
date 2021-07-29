@@ -1,32 +1,22 @@
 .homepage-intro {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding-right: 1%;
-  width: 100%;
-  height: 140%;
+  @include flex(row, flex-end, flex-start);
 
-  img {
-    width: 80%;
-    height: 100%;
-    z-index: 0;
-    object-fit: contain;
-    object-position: right;
-  }
+  position: relative;
+  // padding-right: 1%;
+  width: 100%;
 }
 
 .homepage-intro-title-container {
-  display: flex;
-  padding-top: 10%;
-  padding-left: 3%;
-  width: 20%;
-  height: 90vh;
+  position: absolute;
+  top: 70px;
+  left: 50px;
   z-index: 1;
-  flex-direction: column;
+  // border: #f00 solid 1px;
 }
 
 .homepage-intro-title {
-  width: 300%;
+  margin-bottom: 20px;
+  width: 800px;
   font-size: 4rem;
   font-weight: bolder;
   background: linear-gradient(to right, #4fc49b, #59d9ac);
@@ -34,13 +24,82 @@
   background-clip: text;
   line-height: 4.5rem;
   -webkit-text-fill-color: transparent;
+  // border: red solid 1px;
 }
 
 .homepage-intro-subtitle {
-  margin-top: 5%;
-  width: 200%;
+  // margin-top: 20px;
+  width: 600px;
   font-size: 1.2rem;
   font-weight: bolder;
   color: #4fc49b;
   line-height: 1.7rem;
+  // border: red solid 1px;
+}
+
+.homepage-intro-img {
+  margin-right: 1%;
+  width: 80%;
+  z-index: 0;
+  object-fit: contain;
+  object-position: right;
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .homepage-intro {
+    @include flex(column, center, center);
+
+    padding: 0 50px;
+  }
+
+  .homepage-intro-title-container {
+    position: static;
+  }
+
+  .homepage-intro-title {
+    width: 100%;
+  }
+
+  .homepage-intro-subtitle {
+    width: 70%;
+  }
+
+  .homepage-intro-img {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .homepage-intro {
+    @include flex(column, center, center);
+
+    padding: 0 20px;
+  }
+
+  .homepage-intro-title-container {
+    position: static;
+  }
+
+  .homepage-intro-title {
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .homepage-intro-subtitle {
+    width: 70%;
+  }
+
+  .homepage-intro-img {
+    margin: 0;
+    width: 100%;
+  }
 }

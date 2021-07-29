@@ -9,7 +9,7 @@ const Intro: React.FC = () => (
       data-aos-duration="1000"
     >
       <div className={classNames('homepage-intro-title')}>
-        Delivering innovation from data
+        Delivering Innovation from Data
       </div>
       <div className={classNames('homepage-intro-subtitle')}>
         Liberate the value of data, Empower the trust of data and Leverage data
@@ -17,6 +17,7 @@ const Intro: React.FC = () => (
       </div>
     </div>
     <img
+      className={classNames('homepage-intro-img')}
       alt="intro"
       src={`${process.env.PUBLIC_URL}/homePage/intro/intro.png`}
       data-aos="fade-left"
