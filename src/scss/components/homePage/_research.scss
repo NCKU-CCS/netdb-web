@@ -11,14 +11,34 @@
 }
 
 .homepage-research-title {
-  margin-bottom: 60px;
+  margin-bottom: 4rem;
 }
 
 .homepage-research-domain-container {
   display: grid;
-  width: 90%;
-  height: 90%;
-  grid-template-columns: auto auto;
+  padding: 0 4rem;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
   column-gap: 30px;
   row-gap: 50px;
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .homepage-research-domain-container {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .homepage-research-domain-container {
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+  }
 }

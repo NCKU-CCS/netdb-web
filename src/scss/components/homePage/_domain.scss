@@ -12,18 +12,17 @@
 
   margin-bottom: 10px;
   width: 100%;
-  // border: $text-green solid 1px;
-
-  > img {
-    height: 160px;
-    object-fit: contain;
-  }
 
   > h3 {
     font-size: 1.5rem;
-    color: $text-green;
-    color: #59d9ac;
+    color: $text-light-green;
   }
+}
+
+.homepage-research-domain-top-img {
+  margin-bottom: 10px;
+  height: 140px;
+  object-fit: contain;
 }
 
 .homepage-research-domain-bottom {
@@ -31,5 +30,26 @@
   line-height: 2rem;
   font-size: 1rem;
   font-weight: normal;
-  // border: $text-green solid 1px;
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .homepage-research-domain {
+    padding: 30px;
+  }
+
+  .homepage-research-domain-top-img {
+    height: 100px;
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .homepage-research-domain-top-img {
+    height: 80px;
+  }
 }

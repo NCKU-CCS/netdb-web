@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 const Partner: React.FC = () => (
   <div className={classNames('homepage-partner')} data-aos="fade-up">
-    Partnership
+    <div className={classNames('homepage-partner-title')}>Partnership</div>
     <div className={classNames('homepage-partner-img-container')}>
       <img
         alt="TEPCO"
