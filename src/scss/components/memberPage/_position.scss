@@ -1,15 +1,15 @@
 .memberpage-position {
-  padding: 3rem 5%;
+  padding: 50px;
   padding-top: 0;
   width: 100%;
   color: $text-default;
+}
 
-  h3 {
-    margin-bottom: 2.5rem;
-    font-size: 2rem;
-    font-weight: bold;
-    color: $text-default;
-  }
+.memberpage-position-title {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: $text-default;
 }
 
 .memberpage-position-cards-container {
@@ -17,4 +17,37 @@
   grid-column-gap: 3rem;
   grid-row-gap: 2rem;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .memberpage-position {
+    padding: 30px 40px;
+    padding-top: 0;
+  }
+
+  .memberpage-position-cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .memberpage-position {
+    padding: 30px;
+    padding-top: 0;
+  }
+
+  .memberpage-position-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .memberpage-position-cards-container {
+    grid-template-columns: 1fr;
+  }
 }

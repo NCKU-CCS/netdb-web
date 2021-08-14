@@ -10,6 +10,7 @@ interface ILink {
 
 interface IMember {
   name: string;
+  img: string;
   mail: string;
   link: ILink;
   expertise: string[];
@@ -25,6 +26,7 @@ const Position: React.FC<IProps> = ({ title, members }) => {
     <Card
       title={title}
       name={d.name}
+      img={d.img}
       mail={d.mail}
       link={d.link}
       expertise={d.expertise}
@@ -33,7 +35,7 @@ const Position: React.FC<IProps> = ({ title, members }) => {
 
   return (
     <div className={classNames('memberpage-position')}>
-      <h3>{title}</h3>
+      <div className={classNames('memberpage-position-title')}>{title}</div>
       <div className={classNames('memberpage-position-cards-container')}>
         {createCards}
       </div>

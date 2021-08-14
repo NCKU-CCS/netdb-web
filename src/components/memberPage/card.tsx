@@ -10,27 +10,44 @@ interface ILink {
 interface IProps {
   title: string;
   name: string;
+  img: string;
   mail: string;
   link: ILink;
   expertise: string[];
 }
 
-const Card: React.FC<IProps> = ({ title, name, mail, link, expertise }) => {
-  const createExpertise = expertise.map((d) => <div>{d}</div>);
+const Card: React.FC<IProps> = ({
+  title,
+  name,
+  img,
+  mail,
+  link,
+  expertise,
+}) => {
+  const createExpertise = expertise.map((d) => (
+    <div className={classNames('memberpage-card-hover-expertise')}>{d}</div>
+  ));
 
   return (
     <div className={classNames('memberpage-card')}>
       <img
         alt={name}
-        src={`${process.env.PUBLIC_URL}/memberPage/members/${name}.jpg`}
+        src={`${process.env.PUBLIC_URL}/memberPage/members/${img}`}
       />
       <div className={classNames('memberpage-card-footer')}>
-        <h4>{name}</h4>
-        <div>{title}</div>
+        <div className={classNames('memberpage-card-footer-name')}>{name}</div>
+        <div className={classNames('memberpage-card-footer-title')}>
+          {title}
+        </div>
       </div>
       <div className={classNames('memberpage-card-hover')}>
+        <div
+          className={classNames('memberpage-card-hover-expertise-container')}
+        >
+          {createExpertise}
+        </div>
         <div className={classNames('memberpage-card-hover-icons-container')}>
-          <a href={`mailto:${mail}`}>
+          <a title={mail} href={`mailto:${mail}`}>
             <img
               className={classNames('memberpage-card-hover-img-mail')}
               alt="mail"
@@ -62,7 +79,6 @@ const Card: React.FC<IProps> = ({ title, name, mail, link, expertise }) => {
             </a>
           )}
         </div>
-        {createExpertise}
       </div>
     </div>
   );
