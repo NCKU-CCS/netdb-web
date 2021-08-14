@@ -35,7 +35,7 @@ const Position: React.FC<IProps> = ({ title, members }) => {
 
   return (
     <div className={classNames('memberpage-position')}>
-      <h3>{title}</h3>
+      <div className={classNames('memberpage-position-title')}>{title}</div>
       <div className={classNames('memberpage-position-cards-container')}>
         {createCards}
       </div>

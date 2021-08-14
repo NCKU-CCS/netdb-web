@@ -34,41 +34,38 @@
   transition: all 0.5s ease-in-out;
   -webkit-backdrop-filter: blur(1px);
   backdrop-filter: blur(1px);
+}
 
-  > h4 {
-    font-size: 1.75rem;
-    font-weight: bold;
-    line-height: 2.5rem;
-  }
+.memberpage-card-footer-name {
+  margin: 5px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
 
-  > div {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-  }
+.memberpage-card-footer-title {
+  margin: 5px 0;
+  font-size: 1.2rem;
 }
 
 .memberpage-card-hover {
-  @include flex(column, flex-end, flex-start);
+  @include flex(row, space-between, flex-start);
 
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 0.6rem 1rem;
+  padding: 20px;
   width: 100%;
   height: 100%;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff;
   background-color: rgba(135, 135, 135, 0.5);
   opacity: 0;
   transition: all 0.5s ease-in-out;
-  line-height: 2.5rem;
   -webkit-backdrop-filter: blur(1px);
   backdrop-filter: blur(1px);
 
   img {
-    width: 1.5rem;
-    height: 1.5rem;
+    margin-bottom: 8px;
+    width: 28px;
+    height: 28px;
     transition: all 0.3s ease-in-out;
     object-fit: contain;
   }
@@ -76,9 +73,55 @@
 
 .memberpage-card-hover-icons-container {
   @include flex(column, space-between, center);
+}
 
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0.3rem 0.8rem;
+.memberpage-card-hover-expertise-container {
+  @include flex(column, flex-end, flex-start);
+
+  width: calc(100% - 50px);
+  height: 100%;
+}
+
+.memberpage-card-hover-expertise {
+  margin-top: 7px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .memberpage-card-hover {
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .memberpage-card {
+    // width: 80%;
+  }
+
+  .memberpage-card-footer-name {
+    margin: 5px 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .memberpage-card-footer-title {
+    margin: 5px 0;
+    font-size: 1.8rem;
+  }
+
+  .memberpage-card-hover-expertise {
+    margin-top: 10px;
+    font-size: 2rem;
+  }
 }

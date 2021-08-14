@@ -24,7 +24,9 @@ const Card: React.FC<IProps> = ({
   link,
   expertise,
 }) => {
-  const createExpertise = expertise.map((d) => <div>{d}</div>);
+  const createExpertise = expertise.map((d) => (
+    <div className={classNames('memberpage-card-hover-expertise')}>{d}</div>
+  ));
 
   return (
     <div className={classNames('memberpage-card')}>
@@ -33,12 +35,19 @@ const Card: React.FC<IProps> = ({
         src={`${process.env.PUBLIC_URL}/memberPage/members/${img}`}
       />
       <div className={classNames('memberpage-card-footer')}>
-        <h4>{name}</h4>
-        <div>{title}</div>
+        <div className={classNames('memberpage-card-footer-name')}>{name}</div>
+        <div className={classNames('memberpage-card-footer-title')}>
+          {title}
+        </div>
       </div>
       <div className={classNames('memberpage-card-hover')}>
+        <div
+          className={classNames('memberpage-card-hover-expertise-container')}
+        >
+          {createExpertise}
+        </div>
         <div className={classNames('memberpage-card-hover-icons-container')}>
-          <a href={`mailto:${mail}`}>
+          <a title={mail} href={`mailto:${mail}`}>
             <img
               className={classNames('memberpage-card-hover-img-mail')}
               alt="mail"
@@ -70,7 +79,6 @@ const Card: React.FC<IProps> = ({
             </a>
           )}
         </div>
-        {createExpertise}
       </div>
     </div>
   );

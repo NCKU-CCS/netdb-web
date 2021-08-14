@@ -1,28 +1,67 @@
 .memberpage-banner {
-  display: flex;
-  padding: 5%;
-  width: 100%;
-  height: 90%;
-  flex-direction: row;
+  @include flex(row, space-between, center);
 
-  h1 {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    font-size: 5rem;
-    font-weight: bolder;
-    background: linear-gradient(to right, #4fc49b, #59d9ac);
-    -webkit-background-clip: text;
-    background-clip: text;
-    letter-spacing: 5rem * 0.05;
-    line-height: 5rem * 1.3;
-    -webkit-text-fill-color: transparent;
+  margin-bottom: 50px;
+  padding: 50px;
+  width: 100%;
+}
+
+.memberpage-banner-title {
+  // @include flex(row, flex-start, center);
+
+  width: 50%;
+  font-size: 5rem;
+  font-weight: bolder;
+  background: linear-gradient(to right, #4fc49b, #59d9ac);
+  -webkit-background-clip: text;
+  background-clip: text;
+  // letter-spacing: 5rem * 0.05;
+  // line-height: 5rem * 1.3;
+  -webkit-text-fill-color: transparent;
+  // border: $text-default solid 1px;
+}
+
+.memberpage-banner-img {
+  width: 50%;
+  object-fit: contain;
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .memberpage-banner {
+    padding: 40px;
   }
 
-  img {
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
+  .memberpage-banner-title {
+    font-size: 4rem;
+    letter-spacing: 4rem * 0.05;
+    line-height: 4rem * 1.3;
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .memberpage-banner {
+    @include flex(column, center, center);
+
+    margin-bottom: 10px;
+    padding: 0 30px;
+  }
+
+  .memberpage-banner-title {
+    justify-content: center;
+    width: 100%;
+    font-size: 4rem;
+    letter-spacing: 4rem * 0.05;
+    line-height: 4rem * 1.3;
+    text-align: center;
+  }
+
+  .memberpage-banner-img {
+    width: 100%;
   }
 }
