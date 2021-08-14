@@ -50,7 +50,8 @@
 
   > img {
     margin-right: 1rem;
-    width: 8%;
+    // width: 8%;
+    width: 60px;
     object-fit: contain;
     object-position: left;
     // border: red solid 1px;
@@ -74,7 +75,7 @@
 }
 
 .workpage-project-text-header-right-name {
-  @include flex(row, center, center);
+  // @include flex(row, center, center);
 
   font-size: 1.2rem;
   font-weight: bold;
@@ -82,7 +83,7 @@
   background: linear-gradient(to top, #4fc49b, #59d9ac);
   -webkit-background-clip: text;
   background-clip: text;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   -webkit-text-fill-color: transparent;
   // border: red solid 1px;
 
@@ -112,4 +113,32 @@
     object-fit: contain;
     // border: red solid 1px;
   }
+}
+
+// added===================
+.workpage-project-card-right-container {
+  @include flex(column, center, center);
+
+  width: 40%;
+}
+
+.workpage-project-card-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 0%;
+  // border: #f1f1f1 solid 1px;
+}
+
+.workpage-project-card-right-link {
+  @include flex(row, flex-end, center);
+
+  width: 100%;
+  // border: #4fc49b solid 1px;
+}
+
+.workpage-project-card-right-link-img {
+  margin-bottom: 10px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }

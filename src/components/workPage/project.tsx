@@ -42,14 +42,14 @@ const Project: React.FC<IProps> = ({
               className={classNames('workpage-project-text-header-right-name')}
             >
               {name}
-              {link && (
+              {/* {link && (
                 <a href={link}>
                   <img
                     alt="fb"
                     src={`${process.env.PUBLIC_URL}/workPage/website.png`}
                   />
                 </a>
-              )}
+              )} */}
             </div>
           </div>
         </div>
@@ -63,10 +63,25 @@ const Project: React.FC<IProps> = ({
           ))}
         </div>
       </div>
-      <img
-        alt={img}
-        src={`${process.env.PUBLIC_URL}/workPage/pics/${img}.png`}
-      />
+      <div className={classNames('workpage-project-card-right-container')}>
+        {link && (
+          <a
+            className={classNames('workpage-project-card-right-link')}
+            href={link}
+          >
+            <img
+              className={classNames('workpage-project-card-right-link-img')}
+              alt="fb"
+              src={`${process.env.PUBLIC_URL}/workPage/website.png`}
+            />
+          </a>
+        )}
+        <img
+          className={classNames('workpage-project-card-img')}
+          alt={img}
+          src={`${process.env.PUBLIC_URL}/workPage/pics/${img}.png`}
+        />
+      </div>
     </div>
   </div>
 );
