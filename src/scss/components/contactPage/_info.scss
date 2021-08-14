@@ -1,102 +1,212 @@
 .contactpage-info {
-  margin-top: 5%;
   width: 100%;
-  height: 40%;
+}
 
-  h1 {
-    margin: 0;
-    padding: 0 4%;
-    width: 100%;
-    height: 50%;
-    font-size: 4rem;
-    font-weight: bolder;
-    background: linear-gradient(to right, #4fc49b, #59d9ac);
-    -webkit-background-clip: text;
-    background-clip: text;
-    line-height: 4.5rem;
-    -webkit-text-fill-color: transparent;
-  }
+.contactpage-info-title {
+  margin: 0;
+  padding: 50px;
+  width: 100%;
+  font-size: 4rem;
+  font-weight: bolder;
+  background: linear-gradient(to right, #4fc49b, #59d9ac);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .contactpage-info-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 4%;
-  padding-left: 4%;
-  width: 100%;
-  height: 50%;
-  flex-direction: row;
+  @include flex(row, space-between, center);
 
-  img {
-    width: 20%;
-    height: 100%;
-    object-fit: contain;
-    border-right: #979797 solid 1px;
-  }
+  padding: 0 50px;
+  width: 100%;
+}
+
+.contactpage-info-right-container {
+  @include flex(row, space-evenly, center);
+
+  width: calc(100% - 150px);
+}
+
+.contactpage-info-netdb-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.contactpage-info-border {
+  height: 150px;
+  border-right: #979797 solid 2px;
 }
 
 .contactpage-info-location {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  @include flex(row, space-evenly, space-between);
+
   width: 45%;
+}
+
+.contactpage-info-location-img {
+  width: 25px;
+  border: 0;
+  object-fit: contain;
+}
+
+.contactpage-info-location-text {
+  width: 80%;
   height: 100%;
-  flex-direction: row;
+}
 
-  img {
-    margin-top: 0.5rem;
-    width: 10%;
-    height: 20%;
-    border: 0;
-    object-fit: contain;
-  }
-
-  p {
-    width: 80%;
-    height: 100%;
-    font-size: 1rem;
-    line-height: 2.5rem;
-  }
+.contactpage-info-location-text-item {
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #4d4d4d;
 }
 
 .contactpage-info-contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35%;
-  height: 100%;
-  flex-direction: column;
-  border-left: #979797 solid 1px;
+  @include flex(column, center, space-between);
+
+  width: 40%;
 }
 
 .contactpage-info-contact-item {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  width: 100%;
-  height: 50%;
-  flex-direction: row;
+  @include flex(row, space-evenly, center);
 
-  img {
-    margin-top: 0.5rem;
-    width: 20%;
-    height: 30%;
-    border: 0;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.contactpage-info-contact-item-img {
+  width: 28px;
+  border: 0;
+  object-fit: contain;
+}
+
+.contactpage-info-contact-item-link {
+  @include flex(row, flex-start, flex-start);
+
+  width: 80%;
+  height: 100%;
+  font-size: 1rem;
+  color: #4d4d4d;
+
+  &:hover {
+    font-weight: bolder;
+  }
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .contactpage-info-title {
+    padding: 20px 40px;
   }
 
-  a {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 70%;
-    height: 100%;
-    font-size: 1rem;
-    color: #4d4d4d;
-    line-height: 2rem;
+  .contactpage-info-content {
+    padding: 0 40px;
+  }
 
-    &:hover {
-      font-weight: bolder;
-    }
+  .contactpage-info-netdb-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+  }
+
+  .contactpage-info-right-container {
+    @include flex(column, center, flex-start);
+
+    width: calc(100% - 150px);
+    border-left: #979797 solid 1px;
+  }
+
+  .contactpage-info-border {
+    display: none;
+  }
+
+  .contactpage-info-location {
+    width: 100%;
+  }
+
+  .contactpage-info-location-img {
+    width: 15px;
+  }
+
+  .contactpage-info-location-text-item {
+    margin: 10px 0;
+  }
+
+  .contactpage-info-contact {
+    width: 100%;
+  }
+
+  .contactpage-info-contact-item-img {
+    width: 17px;
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .contactpage-info-title {
+    padding: 10px 30px;
+  }
+
+  .contactpage-info-content {
+    @include flex(column, center, flex-start);
+
+    padding: 0 30px;
+  }
+
+  .contactpage-info-netdb-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+  }
+
+  .contactpage-info-right-container {
+    @include flex(column, center, flex-start);
+
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .contactpage-info-border {
+    display: none;
+  }
+
+  .contactpage-info-location {
+    @include flex(row, space-between, center);
+
+    width: 100%;
+  }
+
+  .contactpage-info-location-img {
+    width: 15px;
+  }
+
+  .contactpage-info-location-text {
+    width: 90%;
+  }
+
+  .contactpage-info-location-text-item {
+    margin: 10px 0;
+  }
+
+  .contactpage-info-contact {
+    width: 100%;
+  }
+
+  .contactpage-info-contact-item {
+    @include flex(row, space-between, center);
+
+    width: 100%;
+  }
+
+  .contactpage-info-contact-item-img {
+    width: 17px;
+  }
+
+  .contactpage-info-contact-item-link {
+    width: 90%;
   }
 }
