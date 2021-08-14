@@ -3,8 +3,12 @@ import classNames from 'classnames';
 
 const Banner: React.FC = () => (
   <div className={classNames('workpage-banner')}>
-    <h1>Our Works</h1>
-    <img alt="Our Works" src={`${process.env.PUBLIC_URL}/workPage/bg.svg`} />
+    <div className={classNames('workpage-banner-title')}>Our Works</div>
+    <img
+      className={classNames('workpage-banner-img')}
+      alt="Our Works"
+      src={`${process.env.PUBLIC_URL}/workPage/bg.svg`}
+    />
   </div>
 );
 
