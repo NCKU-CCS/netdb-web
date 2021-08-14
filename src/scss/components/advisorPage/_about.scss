@@ -75,3 +75,29 @@
     color: $text-default;
   }
 }
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .advisorpage-about-top-container {
+    @include flex(column, center, flex-start);
+
+    flex-direction: column-reverse;
+
+    > img {
+      margin-bottom: 10px;
+      width: 35%;
+    }
+  }
+
+  .advisorpage-about-top-text {
+    width: 100%;
+  }
+}
