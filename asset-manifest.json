@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/netdb-web/static/css/main.1ce9958b.chunk.css",
-    "main.js": "/netdb-web/static/js/main.c951442e.chunk.js",
-    "main.js.map": "/netdb-web/static/js/main.c951442e.chunk.js.map",
+    "main.css": "/netdb-web/static/css/main.0489e57b.chunk.css",
+    "main.js": "/netdb-web/static/js/main.62b72fa0.chunk.js",
+    "main.js.map": "/netdb-web/static/js/main.62b72fa0.chunk.js.map",
     "runtime-main.js": "/netdb-web/static/js/runtime-main.0f4193b3.js",
     "runtime-main.js.map": "/netdb-web/static/js/runtime-main.0f4193b3.js.map",
     "static/css/2.98d1d9d4.chunk.css": "/netdb-web/static/css/2.98d1d9d4.chunk.css",
@@ -11,17 +11,17 @@
     "static/js/3.ae1b04be.chunk.js": "/netdb-web/static/js/3.ae1b04be.chunk.js",
     "static/js/3.ae1b04be.chunk.js.map": "/netdb-web/static/js/3.ae1b04be.chunk.js.map",
     "index.html": "/netdb-web/index.html",
-    "precache-manifest.c2916510d4959ce9f4887f7ebc9b7fd4.js": "/netdb-web/precache-manifest.c2916510d4959ce9f4887f7ebc9b7fd4.js",
+    "precache-manifest.b463c0c53a6f243726b669b2d5a77b83.js": "/netdb-web/precache-manifest.b463c0c53a6f243726b669b2d5a77b83.js",
     "service-worker.js": "/netdb-web/service-worker.js",
     "static/css/2.98d1d9d4.chunk.css.map": "/netdb-web/static/css/2.98d1d9d4.chunk.css.map",
-    "static/css/main.1ce9958b.chunk.css.map": "/netdb-web/static/css/main.1ce9958b.chunk.css.map",
+    "static/css/main.0489e57b.chunk.css.map": "/netdb-web/static/css/main.0489e57b.chunk.css.map",
     "static/js/2.937c7af4.chunk.js.LICENSE.txt": "/netdb-web/static/js/2.937c7af4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0f4193b3.js",
     "static/css/2.98d1d9d4.chunk.css",
     "static/js/2.937c7af4.chunk.js",
-    "static/css/main.1ce9958b.chunk.css",
-    "static/js/main.c951442e.chunk.js"
+    "static/css/main.0489e57b.chunk.css",
+    "static/js/main.62b72fa0.chunk.js"
   ]
 }
