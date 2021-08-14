@@ -1,5 +1,8 @@
-.workpage-project-container > h4 {
-  margin-left: 5%;
+.workpage-project-container {
+  padding: 0 50px;
+}
+
+.workpage-project-category {
   font-size: 1.25rem;
   font-weight: bold;
   color: $text-grey;
@@ -8,37 +11,33 @@
 .workpage-project {
   @include flex(row, space-between, center);
 
-  margin: 2rem 5%;
+  margin: 2rem 0;
   padding: 2rem;
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.05),
     0 16px 40px 0 rgba(0, 0, 0, 0.05);
-  // border: red solid 1px;
 
   > img {
     width: 40%;
     height: 100%;
     object-fit: cover;
     object-position: 0% 0%;
-    // border: #f1f1f1 solid 1px;
   }
 }
 
-.workpage-project-text {
+.workpage-project-card-left-container {
   @include flex(column, space-between, flex-start);
 
   width: 55%;
   color: $text-default;
   align-self: flex-start;
-  // border: red solid 1px;
 
   p {
     margin: 1rem 0 0.5rem; // top right bottom left
     width: 100%;
     font-size: 1rem;
     line-height: 1.7rem;
-    // border: red solid 1px;
   }
 }
 
@@ -46,16 +45,14 @@
   @include flex(row, flex-start, center);
 
   width: 100%;
-  // border: red solid 1px;
+}
 
-  > img {
-    margin-right: 1rem;
-    // width: 8%;
-    width: 60px;
-    object-fit: contain;
-    object-position: left;
-    // border: red solid 1px;
-  }
+.workpage-project-card-left-img {
+  margin-right: 1rem;
+  // width: 8%;
+  width: 60px;
+  object-fit: contain;
+  object-position: left;
 }
 
 .workpage-project-text-header-right {
@@ -63,29 +60,23 @@
 
   font-size: 1rem;
   line-height: 1.7rem;
-  // border: red solid 1px;
 }
 
 .workpage-project-text-header-right-slogan {
-  margin-bottom: 0.3rem;
   font-size: 0.8rem;
   font-weight: bold;
   color: $text-grey;
-  line-height: 1rem;
+  line-height: 1.2rem;
 }
 
 .workpage-project-text-header-right-name {
-  // @include flex(row, center, center);
-
   font-size: 1.2rem;
   font-weight: bold;
   color: $text-green;
   background: linear-gradient(to top, #4fc49b, #59d9ac);
   -webkit-background-clip: text;
   background-clip: text;
-  line-height: 1.5rem;
   -webkit-text-fill-color: transparent;
-  // border: red solid 1px;
 
   > a {
     @include flex(row, center, center);
@@ -95,7 +86,6 @@
       width: 1.5rem;
       object-fit: contain;
       object-position: center;
-      // border: red solid 1px;
     }
   }
 }
@@ -104,18 +94,15 @@
   @include flex(row, flex-start, center);
 
   width: 100%;
-  // border: red solid 1px;
 
   > img {
     margin-top: 1rem;
     margin-right: 1rem;
     height: 2.5rem;
     object-fit: contain;
-    // border: red solid 1px;
   }
 }
 
-// added===================
 .workpage-project-card-right-container {
   @include flex(column, center, center);
 
@@ -126,19 +113,108 @@
   width: 100%;
   object-fit: cover;
   object-position: 0% 0%;
-  // border: #f1f1f1 solid 1px;
+  border: #f1f1f1 solid 1px;
 }
 
 .workpage-project-card-right-link {
   @include flex(row, flex-end, center);
 
+  margin-bottom: 10px;
   width: 100%;
-  // border: #4fc49b solid 1px;
 }
 
 .workpage-project-card-right-link-img {
-  margin-bottom: 10px;
   width: 30px;
   height: 30px;
   object-fit: contain;
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .workpage-project-container {
+    padding: 0 40px;
+  }
+
+  .workpage-project {
+    @include flex(column, center, flex-start);
+
+    flex-direction: column-reverse;
+  }
+
+  .workpage-project-card-left-container {
+    width: 100%;
+  }
+
+  .workpage-project-card-right-container {
+    margin-bottom: 20px;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .workpage-project-card-img {
+    cursor: pointer;
+    max-height: 150px;
+    transition: all ease 1s;
+    object-position: center;
+
+    &:hover {
+      max-height: 1000px;
+    }
+  }
+
+  .workpage-project-card-right-link {
+    margin: 0;
+    margin-top: 10px;
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .workpage-project-container {
+    padding: 0 30px;
+  }
+
+  .workpage-project {
+    @include flex(column, center, flex-start);
+
+    flex-direction: column-reverse;
+  }
+
+  .workpage-project-card-left-container {
+    width: 100%;
+  }
+
+  .workpage-project-card-right-container {
+    margin-bottom: 20px;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .workpage-project-card-img {
+    cursor: pointer;
+    max-height: 100px;
+    transition: all ease 1s;
+    object-position: center;
+
+    &:hover {
+      max-height: 1000px;
+    }
+  }
+
+  .workpage-project-card-right-link {
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .workpage-project-card-left-img {
+    width: 40px;
+  }
+
+  .workpage-project-text-header-right-name {
+    line-height: normal;
+  }
 }

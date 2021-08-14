@@ -22,11 +22,14 @@ const Project: React.FC<IProps> = ({
   partners,
 }) => (
   <div className={classNames('workpage-project-container')}>
-    <h4>Project on {type}</h4>
+    <div className={classNames('workpage-project-category')}>
+      Project on {type}
+    </div>
     <div className={classNames('workpage-project')}>
-      <div className={classNames('workpage-project-text')}>
+      <div className={classNames('workpage-project-card-left-container')}>
         <div className={classNames('workpage-project-text-header')}>
           <img
+            className={classNames('workpage-project-card-left-img')}
             alt={type}
             src={`${process.env.PUBLIC_URL}/workPage/icons/${type}.svg`}
           />

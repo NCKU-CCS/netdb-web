@@ -4,7 +4,6 @@
   margin: 50px 0;
   padding: 50px;
   width: 100%;
-  // border: #4fc49b solid 1px;
 }
 
 .workpage-banner-title {
@@ -22,4 +21,33 @@
 .workpage-banner-img {
   width: 45%;
   object-fit: contain;
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .workpage-banner {
+    @include flex(column, center, center);
+
+    margin: 0;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .workpage-banner-title {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .workpage-banner-img {
+    width: 100%;
+  }
 }
