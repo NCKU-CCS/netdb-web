@@ -10,19 +10,27 @@ interface ILink {
 interface IProps {
   title: string;
   name: string;
+  img: string;
   mail: string;
   link: ILink;
   expertise: string[];
 }
 
-const Card: React.FC<IProps> = ({ title, name, mail, link, expertise }) => {
+const Card: React.FC<IProps> = ({
+  title,
+  name,
+  img,
+  mail,
+  link,
+  expertise,
+}) => {
   const createExpertise = expertise.map((d) => <div>{d}</div>);
 
   return (
     <div className={classNames('memberpage-card')}>
       <img
         alt={name}
-        src={`${process.env.PUBLIC_URL}/memberPage/members/${name}.jpg`}
+        src={`${process.env.PUBLIC_URL}/memberPage/members/${img}`}
       />
       <div className={classNames('memberpage-card-footer')}>
         <h4>{name}</h4>
