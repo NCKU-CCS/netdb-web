@@ -101,3 +101,15 @@ $button-width: 90px;
 .workpage-year-bar--2015 {
   left: 15px + $button-width * 6;
 }
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+}
