@@ -10,7 +10,7 @@ const Burger: React.FC = () => {
   const [isDrawerShown, setIsDrawerShown] = useState(false);
 
   const onClickLink = (url: string) => {
-    window.location.replace(`${process.env.PUBLIC_URL}${url}`);
+    window.location.replace(`${process.env.PUBLIC_URL}${url}/`);
   };
 
   return (
@@ -37,7 +37,7 @@ const Burger: React.FC = () => {
             `${window.location.pathname === '/netdb-web/' ? 'selected' : ''}`,
           )}
           size="large"
-          onClick={() => onClickLink('/')}
+          onClick={() => onClickLink('')}
         >
           Home
         </Button>
