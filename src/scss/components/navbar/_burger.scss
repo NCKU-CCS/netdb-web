@@ -2,6 +2,15 @@
   color: $text-green;
 }
 
+.MuiButton-root.navbar-burger-link-btn {
+  text-transform: none;
+}
+
+.MuiButton-root.navbar-burger-link-btn.selected {
+  font-weight: bolder;
+  color: $text-green;
+}
+
 // 840 < size
 @media all and (min-width: 840px) {
   .MuiIconButton-root.navbar-burger {

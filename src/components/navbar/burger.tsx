@@ -32,35 +32,50 @@ const Burger: React.FC = () => {
           <ExpandLessIcon />
         </Button>
         <Button
-          className={classNames('navbar-burger-link-btn')}
+          className={classNames(
+            'navbar-burger-link-btn',
+            `${window.location.pathname === '/netdb-web/' ? 'selected' : ''}`,
+          )}
           size="large"
           onClick={() => onClickLink('/')}
         >
           Home
         </Button>
         <Button
-          className={classNames('navbar-burger-link-btn')}
+          className={classNames(
+            'navbar-burger-link-btn',
+            `${window.location.pathname.includes('work') ? 'selected' : ''}`,
+          )}
           size="large"
           onClick={() => onClickLink('/work')}
         >
           Work
         </Button>
         <Button
-          className={classNames('navbar-burger-link-btn')}
+          className={classNames(
+            'navbar-burger-link-btn',
+            `${window.location.pathname.includes('advisor') ? 'selected' : ''}`,
+          )}
           size="large"
           onClick={() => onClickLink('/advisor')}
         >
           Advisor
         </Button>
         <Button
-          className={classNames('navbar-burger-link-btn')}
+          className={classNames(
+            'navbar-burger-link-btn',
+            `${window.location.pathname.includes('member') ? 'selected' : ''}`,
+          )}
           size="large"
           onClick={() => onClickLink('/member')}
         >
           Member
         </Button>
         <Button
-          className={classNames('navbar-burger-link-btn')}
+          className={classNames(
+            'navbar-burger-link-btn',
+            `${window.location.pathname.includes('contact') ? 'selected' : ''}`,
+          )}
           size="large"
           onClick={() => onClickLink('/contact')}
         >
