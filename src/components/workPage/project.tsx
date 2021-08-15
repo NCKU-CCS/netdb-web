@@ -51,7 +51,7 @@ const Project: React.FC<IProps> = ({
                   'workpage-project-card-header-name-container',
                 )}
               >
-                <div>{name}</div>
+                {name}
                 {/* {link && (
                   <a
                     className={classNames('workpage-project-card-right-link')}

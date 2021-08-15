@@ -69,8 +69,6 @@
 }
 
 .workpage-project-card-header-name-container {
-  @include flex(row, center, center);
-
   font-size: 1.2rem;
   font-weight: bold;
   color: $text-green;
