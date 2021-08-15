@@ -1,17 +1,33 @@
 .navbar-links {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 50%;
+  @include flex(row, space-between, center);
+
   height: 100%;
-  flex-direction: row;
 
   a {
+    margin-left: 40px;
     color: #4d4d4d;
 
     &.selected {
       font-weight: bolder;
       color: #50b58e;
     }
+  }
+}
+
+// 840 < size
+@media all and (min-width: 840px) {
+}
+
+// 480 < size <= 840
+@media all and (min-width: 480px) and (max-width: 840px) {
+  .navbar-links {
+    display: none;
+  }
+}
+
+// size <= 480
+@media all and (max-width: 480px) {
+  .navbar-links {
+    display: none;
   }
 }

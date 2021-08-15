@@ -9,6 +9,7 @@
     "stylelint-order"
   ],
   "rules": {
+    "selector-class-pattern": null,
     "block-no-empty": null,
     "selector-no-qualifying-type": null,
     "max-nesting-depth": null,
