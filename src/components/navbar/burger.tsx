@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 import IconButton from '@material-ui/core/IconButton';
 import Button from '@material-ui/core/Button';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -8,10 +9,6 @@ import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 
 const Burger: React.FC = () => {
   const [isDrawerShown, setIsDrawerShown] = useState(false);
-
-  const onClickLink = (url: string) => {
-    window.location.replace(`${process.env.PUBLIC_URL}${url}/`);
-  };
 
   return (
     <>
@@ -37,9 +34,8 @@ const Burger: React.FC = () => {
             `${window.location.pathname === '/netdb-web/' ? 'selected' : ''}`,
           )}
           size="large"
-          onClick={() => onClickLink('')}
         >
-          Home
+          <Link to="/">Home</Link>
         </Button>
         <Button
           className={classNames(
@@ -47,9 +43,8 @@ const Burger: React.FC = () => {
             `${window.location.pathname.includes('work') ? 'selected' : ''}`,
           )}
           size="large"
-          onClick={() => onClickLink('/work')}
         >
-          Work
+          <Link to="/work">Work</Link>
         </Button>
         <Button
           className={classNames(
@@ -57,9 +52,8 @@ const Burger: React.FC = () => {
             `${window.location.pathname.includes('advisor') ? 'selected' : ''}`,
           )}
           size="large"
-          onClick={() => onClickLink('/advisor')}
         >
-          Advisor
+          <Link to="/advisor">Advisor</Link>
         </Button>
         <Button
           className={classNames(
@@ -67,9 +61,8 @@ const Burger: React.FC = () => {
             `${window.location.pathname.includes('member') ? 'selected' : ''}`,
           )}
           size="large"
-          onClick={() => onClickLink('/member')}
         >
-          Member
+          <Link to="/member">Member</Link>
         </Button>
         <Button
           className={classNames(
@@ -77,9 +70,8 @@ const Burger: React.FC = () => {
             `${window.location.pathname.includes('contact') ? 'selected' : ''}`,
           )}
           size="large"
-          onClick={() => onClickLink('/contact')}
         >
-          Contact
+          <Link to="/contact">Contact</Link>
         </Button>
       </SwipeableDrawer>
     </>

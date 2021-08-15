@@ -2,11 +2,15 @@
   color: $text-green;
 }
 
-.MuiButton-root.navbar-burger-link-btn {
+.MuiButton-root.navbar-burger-link-btn a {
+  width: 100%;
+  font-size: 14px;
+  text-decoration: none;
+  color: #4d4d4d;
   text-transform: none;
 }
 
-.MuiButton-root.navbar-burger-link-btn.selected {
+.MuiButton-root.navbar-burger-link-btn.selected a {
   font-weight: bolder;
   color: $text-green;
 }
