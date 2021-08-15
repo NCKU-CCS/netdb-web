@@ -49,7 +49,6 @@
 
 .workpage-project-card-left-img {
   margin-right: 1rem;
-  // width: 8%;
   width: 60px;
   object-fit: contain;
   object-position: left;
@@ -69,7 +68,9 @@
   line-height: 1.2rem;
 }
 
-.workpage-project-text-header-right-name {
+.workpage-project-card-header-name-container {
+  @include flex(row, center, center);
+
   font-size: 1.2rem;
   font-weight: bold;
   color: $text-green;
@@ -82,8 +83,8 @@
     @include flex(row, center, center);
 
     > img {
-      margin-left: 0.5rem;
-      width: 1.5rem;
+      margin-left: 20px;
+      height: 24px;
       object-fit: contain;
       object-position: center;
     }
@@ -114,12 +115,12 @@
   object-fit: cover;
   object-position: 0% 0%;
   border: #f1f1f1 solid 1px;
+  transition: all linear 0.5s;
 }
 
 .workpage-project-card-right-link {
   @include flex(row, flex-end, center);
 
-  margin-bottom: 10px;
   width: 100%;
 }
 
@@ -129,8 +130,15 @@
   object-fit: contain;
 }
 
+.MuiButton-root.workpage-project-card-right-expand-btn {
+  width: 100%;
+}
+
 // 840 < size
 @media all and (min-width: 840px) {
+  .MuiButton-root.workpage-project-card-right-expand-btn {
+    display: none;
+  }
 }
 
 // 480 < size <= 840
@@ -150,25 +158,16 @@
   }
 
   .workpage-project-card-right-container {
-    margin-bottom: 20px;
     width: 100%;
     flex-direction: column-reverse;
   }
 
   .workpage-project-card-img {
-    cursor: pointer;
-    max-height: 150px;
-    transition: all ease 1s;
-    object-position: center;
+    max-height: 130px;
 
-    &:hover {
+    &.expanded {
       max-height: 1000px;
     }
-  }
-
-  .workpage-project-card-right-link {
-    margin: 0;
-    margin-top: 10px;
   }
 }
 
@@ -189,18 +188,14 @@
   }
 
   .workpage-project-card-right-container {
-    margin-bottom: 20px;
     width: 100%;
     flex-direction: column-reverse;
   }
 
   .workpage-project-card-img {
-    cursor: pointer;
     max-height: 100px;
-    transition: all ease 1s;
-    object-position: center;
 
-    &:hover {
+    &.expanded {
       max-height: 1000px;
     }
   }
@@ -214,7 +209,7 @@
     width: 40px;
   }
 
-  .workpage-project-text-header-right-name {
+  .workpage-project-card-header-name-container {
     line-height: normal;
   }
 }
