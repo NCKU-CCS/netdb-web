@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import classNames from 'classnames';
 import LinearProgress from '@material-ui/core/LinearProgress';
 
@@ -11,14 +11,21 @@ interface IProps {
 
 const GeneralLayout: React.FC<IProps> = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
+  const [isRendered, setIsRendered] = useState(false);
+
+  useEffect(() => {
+    if (!isLoading) {
+      setTimeout(() => setIsRendered(true), 1000);
+    }
+  }, [isLoading]);
 
   return (
     <>
-      {isLoading && (
+      {!isRendered && (
         <LinearProgress className={classNames('general-layout-progress')} />
       )}
       <main
-        className={classNames('general-layout', { loading: isLoading })}
+        className={classNames('general-layout', { loading: !isRendered })}
         onLoad={() => setIsLoading(false)}
       >
         <Navbar />
