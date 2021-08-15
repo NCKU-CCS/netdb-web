@@ -1,0 +1,11 @@
+.general-layout-progress.MuiLinearProgress-colorPrimary {
+  background-color: #f1f1f1;
+
+  > .MuiLinearProgress-barColorPrimary {
+    background-color: $text-light-green;
+  }
+}
+
+.general-layout.loading {
+  display: none;
+}

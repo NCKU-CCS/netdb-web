@@ -4,11 +4,8 @@
 // base
 @import './base/';
 
+// layouts
+@import './layouts/';
+
 // components
-@import './components/navbar/';
-@import './components/footer/';
-@import './components/homePage/';
-@import './components/workPage/';
-@import './components/contactPage/';
-@import './components//memberPage/';
-@import './components/advisorPage/';
+@import './components/';
