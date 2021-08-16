@@ -44,7 +44,7 @@ const Burger: React.FC = () => {
           )}
           size="large"
         >
-          <Link to="/work">Work</Link>
+          <Link to="/work">Our Works</Link>
         </Button>
         <Button
           className={classNames(
@@ -62,7 +62,7 @@ const Burger: React.FC = () => {
           )}
           size="large"
         >
-          <Link to="/member">Member</Link>
+          <Link to="/member">Members</Link>
         </Button>
         <Button
           className={classNames(
@@ -71,7 +71,7 @@ const Burger: React.FC = () => {
           )}
           size="large"
         >
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact">Contact Us</Link>
         </Button>
       </SwipeableDrawer>
     </>

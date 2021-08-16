@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import classNames from 'classnames';
+import Fab from '@material-ui/core/Fab';
 import LinearProgress from '@material-ui/core/LinearProgress';
+import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
@@ -30,6 +32,18 @@ const GeneralLayout: React.FC<IProps> = ({ children }) => {
       >
         <Navbar />
         {children}
+        <Fab
+          color="primary"
+          style={{
+            position: 'fixed',
+            bottom: '30px',
+            right: '30px',
+            backgroundColor: '#59d9ac',
+          }}
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        >
+          <ArrowDropUpIcon />
+        </Fab>
         <Footer />
       </main>
     </>

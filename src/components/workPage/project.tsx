@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import Button from '@material-ui/core/Button';
+import Collapse from '@material-ui/core/Collapse';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 
@@ -96,10 +97,15 @@ const Project: React.FC<IProps> = ({
               />
             </a>
           )} */}
+          <Collapse in={isImgExpanded} collapsedSize={100}>
+            <img
+              className={classNames('workpage-project-card-img', 'inside')}
+              alt={img}
+              src={`${process.env.PUBLIC_URL}/workPage/pics/${img}.png`}
+            />
+          </Collapse>
           <img
-            className={classNames('workpage-project-card-img', {
-              expanded: isImgExpanded,
-            })}
+            className={classNames('workpage-project-card-img', 'outside')}
             alt={img}
             src={`${process.env.PUBLIC_URL}/workPage/pics/${img}.png`}
           />

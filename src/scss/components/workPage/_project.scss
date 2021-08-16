@@ -132,10 +132,24 @@
   width: 100%;
 }
 
+div.MuiCollapse-root {
+  width: 100%;
+}
+
 // 840 < size
 @media all and (min-width: 840px) {
   .MuiButton-root.workpage-project-card-right-expand-btn {
     display: none;
+  }
+
+  div.MuiCollapse-root {
+    display: none;
+  }
+
+  .workpage-project-card-img {
+    &.outside {
+      display: block;
+    }
   }
 }
 
@@ -161,10 +175,8 @@
   }
 
   .workpage-project-card-img {
-    max-height: 130px;
-
-    &.expanded {
-      max-height: 1000px;
+    &.outside {
+      display: none;
     }
   }
 }
@@ -191,10 +203,8 @@
   }
 
   .workpage-project-card-img {
-    max-height: 100px;
-
-    &.expanded {
-      max-height: 1000px;
+    &.outside {
+      display: none;
     }
   }
 
