@@ -1,17 +1,26 @@
 .memberpage-card {
   position: relative;
+  overflow: hidden;
   width: 100%;
+  border: rgba(0, 0, 0, 0.1) solid 1px;
   transition: all 0.3s ease-in-out;
 
   > img {
+    position: absolute;
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
   }
 
   &:hover {
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transform: translateY(-5px);
+
+    > img {
+      transform: scale(1.05);
+    }
 
     > .memberpage-card-footer {
       opacity: 0;
@@ -23,9 +32,15 @@
   }
 }
 
+.memberpage-card::after {
+  content: '';
+  display: block;
+  padding-bottom: 80%;
+}
+
 .memberpage-card-footer {
   position: absolute;
-  bottom: 2px;
+  bottom: 0;
   left: 0;
   padding: 0.5rem 1rem;
   width: 100%;

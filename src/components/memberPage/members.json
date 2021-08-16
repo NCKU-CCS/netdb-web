@@ -342,7 +342,21 @@
   "bachelor": [
     {
       "name": "Che Ping Tsai",
-      "img": "sample.jpg",
+      "img": "cheping.png",
+      "mail": "kingkazma0112305@gmail.com",
+      "link": {
+        "github": "https://github.com/curry0622",
+        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
+        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+      },
+      "expertise": [
+        "Front-end Development",
+        "Contributed to NetDB Official Website"
+      ]
+    },
+    {
+      "name": "Che Ping Tsai",
+      "img": "sample1.svg",
       "mail": "kingkazma0112305@gmail.com",
       "link": {
         "github": "https://github.com/curry0622",
@@ -357,22 +371,7 @@
     },
     {
       "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
+      "img": "sample2.svg",
       "mail": "kingkazma0112305@gmail.com",
       "link": {
         "github": "https://github.com/curry0622",
