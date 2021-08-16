@@ -53,7 +53,13 @@ const Project: React.FC<IProps> = ({
                   { 'has-link': link },
                 )}
               >
-                {link ? <a href={link}>{name}</a> : name}
+                {link ? (
+                  <a href={link} title={link}>
+                    {name}
+                  </a>
+                ) : (
+                  name
+                )}
               </div>
             </div>
           </div>

@@ -31,6 +31,7 @@ span.MuiTabs-indicator {
 }
 
 button.MuiTab-textColorPrimary.Mui-selected {
+  font-weight: bold;
   color: $text-green;
 }
 
@@ -45,7 +46,7 @@ button.MuiTab-textColorPrimary.Mui-selected {
 // 480 < size <= 840
 @media all and (min-width: 480px) and (max-width: 840px) {
   .workpage-year {
-    padding: 40px;
+    padding: 30px;
     padding-bottom: 80px;
   }
 }
@@ -53,7 +54,7 @@ button.MuiTab-textColorPrimary.Mui-selected {
 // size <= 480
 @media all and (max-width: 480px) {
   .workpage-year {
-    padding: 30px;
+    padding: 10px;
     padding-bottom: 60px;
   }
 }

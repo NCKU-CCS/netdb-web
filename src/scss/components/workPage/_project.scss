@@ -80,7 +80,12 @@
 
   &.has-link {
     cursor: pointer;
-    border-bottom: #59d9ac solid 2px;
+
+    > a {
+      text-decoration: underline;
+      text-decoration-color: $text-light-green;
+      text-underline-offset: 5px;
+    }
 
     &:hover {
       transform: scale(1.03);
