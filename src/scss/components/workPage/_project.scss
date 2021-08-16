@@ -76,15 +76,14 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: all ease 0.2s;
 
-  > a {
-    @include flex(row, center, center);
+  &.has-link {
+    cursor: pointer;
+    border-bottom: #59d9ac solid 2px;
 
-    > img {
-      margin-left: 20px;
-      height: 24px;
-      object-fit: contain;
-      object-position: center;
+    &:hover {
+      transform: scale(1.03);
     }
   }
 }

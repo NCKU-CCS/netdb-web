@@ -50,21 +50,10 @@ const Project: React.FC<IProps> = ({
               <div
                 className={classNames(
                   'workpage-project-card-header-name-container',
+                  { 'has-link': link },
                 )}
               >
-                {name}
-                {/* {link && (
-                  <a
-                    className={classNames('workpage-project-card-right-link')}
-                    href={link}
-                  >
-                    <img
-                      className={classNames('workpage-project-card-right-link-img')}
-                      alt="fb"
-                      src={`${process.env.PUBLIC_URL}/workPage/website.png`}
-                    />
-                  </a>
-                )} */}
+                {link ? <a href={link}>{name}</a> : name}
               </div>
             </div>
           </div>
@@ -85,18 +74,6 @@ const Project: React.FC<IProps> = ({
           >
             {isImgExpanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
           </Button>
-          {/* {link && (
-            <a
-              className={classNames('workpage-project-card-right-link')}
-              href={link}
-            >
-              <img
-                className={classNames('workpage-project-card-right-link-img')}
-                alt="fb"
-                src={`${process.env.PUBLIC_URL}/workPage/website.png`}
-              />
-            </a>
-          )} */}
           <Collapse in={isImgExpanded} collapsedSize={100}>
             <img
               className={classNames('workpage-project-card-img', 'inside')}
