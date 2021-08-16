@@ -1,185 +1,59 @@
 .workpage-year {
-  @include flex(column, center, flex-end);
+  @include flex(column, center, center);
 
-  padding: 1rem 5%;
   width: 100%;
-
-  h5 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: $text-green;
-    align-self: flex-start;
-    line-height: 3rem;
-  }
 }
 
-.workpage-year-buttons {
-  position: relative;
-
-  > button {
-    cursor: pointer;
-    width: 90px;
-    font-size: 1.2rem;
-    line-height: 3rem;
-    font-weight: bold;
-    color: $text-grey;
-    background-color: transparent;
-    border: 0;
-    outline: 0;
-
-    &.chosen {
-      color: $text-green;
-    }
-  }
-
-  > .workpage-year-bar {
-    position: absolute;
-    bottom: 0;
-    width: 90px - 30px;
-    height: 5px;
-    color: transparent;
-    background-color: #59d9ac;
-    border-radius: 5px;
-    transition: all 0.5s ease 0s;
-  }
+header.MuiAppBar-root {
+  width: auto;
+  max-width: 100%;
 }
 
-.workpage-year-bar--2021 {
-  left: 15px;
+header.MuiPaper-elevation4 {
+  box-shadow: none;
 }
 
-.workpage-year-bar--2020 {
-  left: 15px + 90px;
+button.MuiTab-root {
+  font-size: 1.2rem;
 }
 
-.workpage-year-bar--2019 {
-  left: 15px + 90px * 2;
+div.MuiTabScrollButton-root {
+  color: $text-light-green;
 }
 
-.workpage-year-bar--2018 {
-  left: 15px + 90px * 3;
+div.MuiTabScrollButton-root.Mui-disabled {
+  color: #ddd;
+  opacity: 1;
 }
 
-.workpage-year-bar--2017 {
-  left: 15px + 90px * 4;
+span.PrivateTabIndicator-colorPrimary-2 {
+  background-color: $text-light-green;
 }
 
-.workpage-year-bar--2016 {
-  left: 15px + 90px * 5;
-}
-
-.workpage-year-bar--2015 {
-  left: 15px + 90px * 6;
+button.MuiTab-textColorPrimary.Mui-selected {
+  color: $text-green;
 }
 
 // 840 < size
 @media all and (min-width: 840px) {
+  .workpage-year {
+    padding: 50px;
+    padding-bottom: 100px;
+  }
 }
 
 // 480 < size <= 840
 @media all and (min-width: 480px) and (max-width: 840px) {
   .workpage-year {
-    @include flex(column, center, center);
-
-    padding: 0;
-
-    > h5 {
-      margin-left: 40px;
-    }
-  }
-
-  .workpage-year-buttons {
-    margin-top: 0;
-    margin-bottom: 40px;
-
-    > button {
-      width: 60px;
-    }
-
-    > .workpage-year-bar {
-      width: 50px;
-    }
-  }
-
-  .workpage-year-bar--2021 {
-    left: 5px;
-  }
-
-  .workpage-year-bar--2020 {
-    left: 5px + 60px;
-  }
-
-  .workpage-year-bar--2019 {
-    left: 5px + 60px * 2;
-  }
-
-  .workpage-year-bar--2018 {
-    left: 5px + 60px * 3;
-  }
-
-  .workpage-year-bar--2017 {
-    left: 5px + 60px * 4;
-  }
-
-  .workpage-year-bar--2016 {
-    left: 5px + 60px * 5;
-  }
-
-  .workpage-year-bar--2015 {
-    left: 5px + 60px * 6;
+    padding: 40px;
+    padding-bottom: 80px;
   }
 }
 
 // size <= 480
 @media all and (max-width: 480px) {
   .workpage-year {
-    @include flex(column, center, center);
-
-    padding: 0;
-
-    > h5 {
-      margin-left: 30px;
-    }
-  }
-
-  .workpage-year-buttons {
-    margin-top: 10px;
-    margin-bottom: 30px;
-
-    > button {
-      width: 45px;
-    }
-
-    > .workpage-year-bar {
-      width: 35px;
-    }
-  }
-
-  .workpage-year-bar--2021 {
-    left: 5px;
-  }
-
-  .workpage-year-bar--2020 {
-    left: 5px + 45px;
-  }
-
-  .workpage-year-bar--2019 {
-    left: 5px + 45px * 2;
-  }
-
-  .workpage-year-bar--2018 {
-    left: 5px + 45px * 3;
-  }
-
-  .workpage-year-bar--2017 {
-    left: 5px + 45px * 4;
-  }
-
-  .workpage-year-bar--2016 {
-    left: 5px + 45px * 5;
-  }
-
-  .workpage-year-bar--2015 {
-    left: 5px + 45px * 6;
+    padding: 30px;
+    padding-bottom: 60px;
   }
 }
