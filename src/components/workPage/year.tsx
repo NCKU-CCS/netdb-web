@@ -25,7 +25,6 @@ const Year: React.FC<IProps> = ({ year, setYear }) => {
           textColor="primary"
           variant="scrollable"
           scrollButtons="on"
-          centered
         >
           {/* <Tab label="2021" value={2022 - 2015} /> */}
           <Tab label="2021" value={2021 - 2015} />
