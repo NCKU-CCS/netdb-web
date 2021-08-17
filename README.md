@@ -79,7 +79,7 @@ There are 6 positions in total, which are `consultant`, `postdoc`, `assistant`, 
 
 <br>
 
-## How to add a new project
+## How to add a new project to this website
 
 1. Add your project's image to [projects' images folder](public/workPage/pics/).
 
