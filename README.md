@@ -78,7 +78,7 @@ There are 6 positions in total, which are `consultant`, `postdoc`, `assistant`, 
 
 2. Add your project's partners' images to [partners' images folder](public/workPage/partners/).
 
-3. Add your project's info as below to [project.json](src/components/workPage/projects.json)
+3. Add your project's info as below to [projects.json](src/components/workPage/projects.json)
 
     <table>
         <thead>

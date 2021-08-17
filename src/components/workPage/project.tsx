@@ -84,13 +84,13 @@ const Project: React.FC<IProps> = ({
             <img
               className={classNames('workpage-project-card-img', 'inside')}
               alt={img}
-              src={`${process.env.PUBLIC_URL}/workPage/pics/${img}.png`}
+              src={`${process.env.PUBLIC_URL}/workPage/pics/${img}`}
             />
           </Collapse>
           <img
             className={classNames('workpage-project-card-img', 'outside')}
             alt={img}
-            src={`${process.env.PUBLIC_URL}/workPage/pics/${img}.png`}
+            src={`${process.env.PUBLIC_URL}/workPage/pics/${img}`}
           />
         </div>
       </div>
