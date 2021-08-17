@@ -37,6 +37,13 @@ There are 6 positions in total, which are `consultant`, `postdoc`, `assistant`, 
             <td>Your name.</td>
         </tr>
         <tr>
+            <td rowspan="1">img</td>
+            <td>String</td>
+            <td>"shiao-ming-wang.png"<br>
+            </td>
+            <td>Your personal image name you added in step 1.</td>
+        </tr>
+        <tr>
             <td rowspan="1">mail</td>
             <td>String</td>
             <td>"kingkazma0112305@gmail.com"</td>
@@ -127,7 +134,7 @@ There are 6 positions in total, which are `consultant`, `postdoc`, `assistant`, 
             <td>Your project's homepage. <b>Remember to fill in null if your project doesn't have a homepage.</b></td>
         </tr>
         <tr>
-            <td rowspan="1">image</td>
+            <td rowspan="1">img</td>
             <td>String</td>
             <td>"energy-platform.png"<br>
             </td>
