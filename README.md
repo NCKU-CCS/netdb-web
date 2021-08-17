@@ -129,7 +129,7 @@ There are 6 positions in total, which are `consultant`, `postdoc`, `assistant`, 
         <tr>
             <td rowspan="1">image</td>
             <td>String</td>
-            <td>"energy=platform.png"<br>
+            <td>"energy-platform.png"<br>
             </td>
             <td>Your project's image name you added in step 1.</td>
         </tr>
