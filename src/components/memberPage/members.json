@@ -305,18 +305,16 @@
       ]
     },
     {
-      "name": "Che Ping Tsai",
+      "name": "An Shan Liu",
       "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "mail": "asliu@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": "https://github.com/An-Shan",
+        "linkedin": "https://www.linkedin.com/in/%E5%AE%89%E5%96%84-%E5%8A%89-15a8701a6/",
+        "homepage": "https://www.facebook.com/profile.php?id=100003327185007"
       },
       "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
+        "Data Mining"
       ]
     },
     {
