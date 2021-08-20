@@ -249,6 +249,21 @@
   ],
   "master": [
     {
+      "name": "Po-Chun Lu",
+      "img": "pochun.jpg",
+      "mail": "pclu@netdb.csie.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/Sirius207",
+        "linkedin": "https://www.linkedin.com/in/pochunlu",
+        "homepage": null
+      },
+      "expertise": [
+        "Web Development",
+        "Cloud computing",
+        "Spatial Temporal Data Mining"
+      ]
+    },
+    {
       "name": "Yan-Ju Chen",
       "img": "Oliver_Chen.jpg",
       "mail": "yjchen@netdb.csie.ncku.edu.tw",
@@ -268,10 +283,7 @@
         "linkedin": "https://www.linkedin.com/in/changchaishi/",
         "homepage": "https://www.facebook.com/changchaishi"
       },
-      "expertise": [
-        "Backend and Mobile Development",
-        "Cloud Computing"
-      ]
+      "expertise": ["Backend and Mobile Development", "Cloud Computing"]
     },
     {
       "name": "Che Ping Tsai",
@@ -312,9 +324,7 @@
         "linkedin": "https://www.linkedin.com/in/%E5%AE%89%E5%96%84-%E5%8A%89-15a8701a6/",
         "homepage": "https://www.facebook.com/profile.php?id=100003327185007"
       },
-      "expertise": [
-        "Data Mining"
-      ]
+      "expertise": ["Data Mining"]
     },
     {
       "name": "Che Ping Tsai",
