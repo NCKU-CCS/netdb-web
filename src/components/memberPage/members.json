@@ -286,18 +286,18 @@
       "expertise": ["Backend and Mobile Development", "Cloud Computing"]
     },
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Steven Hsun-Hsiang Chen",
+      "img": "Steven_Chen.jpg",
+      "mail": "s335276@gmail.com",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": "https://github.com/StevenChen8759",
+        "linkedin": "https://www.linkedin.com/in/steven-chen-35389821a/",
+        "homepage": "https://www.facebook.com/stevenchen.1997"
       },
       "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
+        "Time Series Data Mining",
+        "Backend Development",
+        "Embedded Software Design"
       ]
     },
     {
