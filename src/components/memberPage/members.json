@@ -172,18 +172,18 @@
       ]
     },
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Lok-Him Leung",
+      "img": "lhleung.jpeg",
+      "mail": "lhleung@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": "https://github.com/grandq33769",
+        "linkedin": null,
+        "homepage": "https://www.facebook.com/lokb0224"
       },
       "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
+        "Applied Energy",
+        "Data Science",
+        "System & Software Development"
       ]
     },
     {
