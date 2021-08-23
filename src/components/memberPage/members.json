@@ -1,93 +1,33 @@
 {
   "consultant": [
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Seven Bai",
+      "img": "seven.jpg",
+      "mail": "seven.bai@19gale.ai",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
+        "github": null,
+        "linkedin": null,
         "homepage": null
       },
       "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
+        "Technical Support",
+        "R&D Team Management",
+        "Technology Development Planning"
       ]
     },
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": null,
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Lloyd Huang",
+      "img": "lloyd.jpg",
+      "mail": "lloyd@19gale.ai",
       "link": {
         "github": null,
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "linkedin": "https://www.linkedin.com/in/lloyd-huang-95a972a7/",
+        "homepage": null
       },
       "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
+        "Technical Support",
+        "IoT Development",
+        "Software Architect Design"
       ]
     }
   ],
