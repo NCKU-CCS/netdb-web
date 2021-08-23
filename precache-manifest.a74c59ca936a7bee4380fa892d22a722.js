@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b74ca73eeaed87c88fa02418856fd78",
+    "revision": "62cf01bb42433c99cc09e99eee8b540c",
     "url": "/netdb-web/index.html"
   },
   {
