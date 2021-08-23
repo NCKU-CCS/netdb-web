@@ -398,6 +398,17 @@
       "expertise": [
         "Data Mining"
       ]
+    },
+    {
+      "name": "Yu Tsung Kuo",
+      "img": "kuouu.png",
+      "mail": "erickuo5124@gmail.com",
+      "link": {
+        "github": "https://github.com/erickuo5124",
+        "linkedin": "https://www.linkedin.com/in/yu-tsung-kuo-57ab77176/",
+        "homepage": "https://www.facebook.com/profile.php?id=100000376639656"
+      },
+      "expertise": ["Front-end Development"]
     }
   ]
 }
