@@ -392,7 +392,9 @@
       "img": "roychao.jpeg",
       "mail": "f14071075@gs.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/RoyChao19477"
+        "github": "https://github.com/RoyChao19477",
+        "linkedin": null,
+        "homepage": null
       },
       "expertise": [
         "Data Mining"
