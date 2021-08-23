@@ -386,6 +386,17 @@
         "Front-end design",
         "Spatial data management"
       ]
+    },
+    {
+      "name": "Rong Chao",
+      "img": "roychao.jpeg",
+      "mail": "f14071075@gs.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/RoyChao19477"
+      },
+      "expertise": [
+        "Data Mining"
+      ]
     }
   ]
 }
