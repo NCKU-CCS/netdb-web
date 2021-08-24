@@ -349,6 +349,19 @@
         "homepage": "https://www.facebook.com/profile.php?id=100000376639656"
       },
       "expertise": ["Front-end Development"]
+    },
+    {
+      "name": "Yu Han Huang",
+      "img": "sample1.svg",
+      "mail": "hank95179@gmail.com",
+      "link": {
+        "github": "hhttps://github.com/hank95179",
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise":[
+        "Data Mining"
+      ]
     }
   ]
 }
