@@ -37,7 +37,7 @@
     "introduction": "In this project, to achieve the purpose of home care, we proposed a model to extract elders’ behavior patterns at home from the sensor data which do not invade their privacy, such as the use of electrical appliance and the door switches to detect any abnormal behavior. In addition, we also analyzed the open data released by the government through the technology of heterogeneous data analysis and proposed applications of home security.",
     "link": null,
     "img": "smart-home-security-platform.png",
-    "partners": ["ITRI.png"]
+    "partners": ["climax.jpeg"]
   },
   {
     "name": "Refinement of Finance Prediction Model",
