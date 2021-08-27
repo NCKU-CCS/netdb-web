@@ -33,18 +33,18 @@
   ],
   "postdoc": [
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Bo-Heng Chen",
+      "img": "bhchen.jpg",
+      "mail": "bhchen@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": "https://github.com/bohengchen",
+        "linkedin": "https://www.linkedin.com/in/bohengchen/",
+        "homepage": null
       },
       "expertise": [
         "Data Mining",
-        "Front-end design",
-        "Spatial data management"
+        "Machine Learning",
+        "Social Media Mining"
       ]
     },
     {
