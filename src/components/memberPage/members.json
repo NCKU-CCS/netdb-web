@@ -339,6 +339,20 @@
         "Data Mining",
         "Backend development"
       ]
+    },
+    {
+      "name": "Kai-Jun Yang",
+      "img": "kaijun.png",
+      "mail": "kjyang@netdb.csie.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/williron3960",
+        "linkedin": "https://www.linkedin.com/in/凱駿-仰-4620101b9/",
+        "homepage": null
+      },
+      "expertise": [
+        "Data Mining",
+        "Backend development"
+      ]
     }
   ],
   "bachelor": [
