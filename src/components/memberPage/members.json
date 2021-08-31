@@ -48,18 +48,18 @@
       ]
     },
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Chun-Yin Yeh",
+      "img": "cyyeh.png",
+      "mail": "cyyeh@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": null,
+        "linkedin": null,
+        "homepage": null
       },
       "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
+        "Digital health",
+        "IoT application in the medical field",
+        "Geriatric care and infection prevention"
       ]
     }
   ],
