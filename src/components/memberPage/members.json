@@ -61,34 +61,26 @@
   ],
   "assistant": [
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Yu-Ling Tai",
+      "img": "yuling.jpg",
+      "mail": "yldai@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": null,
+        "linkedin": null,
+        "homepage": null
       },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
+      "expertise": []
     },
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Jia-Lin Huang",
+      "img": "jialin.jpg",
+      "mail": "jlhuang@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": null,
+        "linkedin": null,
+        "homepage": null
       },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
+      "expertise": []
     }
   ],
   "phd": [
