@@ -10,7 +10,7 @@ const MemberPageContainer: React.FC = () => {
       <Banner />
       <Position title="Technical Consultant" members={consultant} />
       <Position title="Post-Doc" members={postdoc} />
-      <Position title="Teaching Assistant" members={assistant} />
+      <Position title="Administrative Assistant" members={assistant} />
       <Position title="Ph.D" members={phd} />
       <Position title="Master" members={master} />
       <Position title="Bachelor" members={bachelor} />
