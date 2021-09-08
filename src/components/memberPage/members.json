@@ -260,6 +260,17 @@
         "homepage": null
       },
       "expertise": ["Data Mining", "Backend development"]
+    },
+    {
+      "name": "Kuan Ting Chen",
+      "img": "ktchen.jpg",
+      "mail": "ktchen@netdb.csie.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/crowttt",
+        "linkedin": "https://www.linkedin.com/in/冠廷-陳-8b4a811b0",
+        "homepage": null
+      },
+      "expertise": ["Backend development"]
     }
   ],
   "bachelor": [
