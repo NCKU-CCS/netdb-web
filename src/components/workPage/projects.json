@@ -37,7 +37,7 @@
     "introduction": "In this project, to achieve the purpose of home care, we proposed a model to extract elders’ behavior patterns at home from the sensor data which do not invade their privacy, such as the use of electrical appliance and the door switches to detect any abnormal behavior. In addition, we also analyzed the open data released by the government through the technology of heterogeneous data analysis and proposed applications of home security.",
     "link": null,
     "img": "smart-home-security-platform.png",
-    "partners": ["ITRI.png"]
+    "partners": ["climax.jpeg"]
   },
   {
     "name": "Refinement of Finance Prediction Model",
@@ -237,7 +237,7 @@
     "introduction": "Medical receipts and certificates are made of paper in the past. It is inefficiency for processing the insurance claim and it wastes too many papers. Besides, it is not secure to the owner because these paper certificates are easily to be seen. To deal with these problems, medical case record/insurance claims blockchain can safely and systematically record the medical certificates and receipts. We leverage the ‘Proof of Existence’ characteristic of blockchain to accelerate the process of the insurance claim and secure the patient’s medical certificate.",
     "link": null,
     "img": "medical-insurance-blockchain.png",
-    "partners": ["NCKUHospital.svg", "Cathay.svg", "Biilabs.png", "ITRI.png"]
+    "partners": ["NCKUHospital.svg", "Cathay.svg", "Biilabs.png", "III.png"]
   },
   {
     "name": "Blockchain-based Industrial Chemical Tracking System",

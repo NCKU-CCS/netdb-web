@@ -33,66 +33,54 @@
   ],
   "postdoc": [
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Bo-Heng Chen",
+      "img": "bhchen.jpg",
+      "mail": "bhchen@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": "https://github.com/bohengchen",
+        "linkedin": "https://www.linkedin.com/in/bohengchen/",
+        "homepage": null
       },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
+      "expertise": ["Data Mining", "Machine Learning", "Social Media Mining"]
     },
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Chun-Yin Yeh",
+      "img": "cyyeh.png",
+      "mail": "cyyeh@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": null,
+        "linkedin": null,
+        "homepage": null
       },
       "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
+        "Digital health",
+        "IoT application in the medical field",
+        "Geriatric care and infection prevention"
       ]
     }
   ],
   "assistant": [
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Yu-Ling Tai",
+      "img": "yuling.jpg",
+      "mail": "yldai@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": null,
+        "linkedin": null,
+        "homepage": null
       },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
+      "expertise": []
     },
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Jia-Lin Huang",
+      "img": "jialin.jpg",
+      "mail": "jlhuang@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": null,
+        "linkedin": null,
+        "homepage": null
       },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
+      "expertise": []
     }
   ],
   "phd": [
@@ -183,21 +171,6 @@
       ]
     },
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
       "name": "An Shan Liu",
       "img": "Anshan.png",
       "mail": "asliu@netdb.csie.ncku.edu.tw",
@@ -218,6 +191,17 @@
         "homepage": null
       },
       "expertise": ["Data Mining", "Backend development"]
+    },
+    {
+      "name": "Kai-Jun Yang",
+      "img": "kaijun.jpeg",
+      "mail": "kjyang@netdb.csie.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/williron3960",
+        "linkedin": "https://www.linkedin.com/in/凱駿-仰-4620101b9/",
+        "homepage": null
+      },
+      "expertise": ["Data Mining", "Backend development"]
     }
   ],
   "bachelor": [
@@ -233,36 +217,6 @@
       "expertise": [
         "Front-end Development",
         "Contributed to NetDB Official Website"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample1.svg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample2.svg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
       ]
     },
     {
@@ -286,6 +240,17 @@
         "homepage": "https://www.facebook.com/profile.php?id=100000376639656"
       },
       "expertise": ["Front-end Development"]
+    },
+    {
+      "name": "I Hsin Chen",
+      "img": "elsie.jpg",
+      "mail": "h54086135@gs.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/elsie43",
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise": ["Data Mining"]
     }
   ]
 }
