@@ -97,18 +97,20 @@
   ],
   "phd": [
     {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
+      "name": "Lo Pang-Yun Ting (Teila)",
+      "img": "teila.jpg",
+      "mail": "lpyting@netdb.csie.ncku.edu.tw",
       "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
+        "github": "https://github.com/tinglo",
+        "linkedin": "https://www.linkedin.com/in/lo-pang-yun-ting-teila-5a7ab2144/",
+        "homepage": "https://www.facebook.com/ding.bangyun"
       },
       "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
+        "Machine Learning",
+        "Recommender System",
+        "Graph Embedding",
+        "Time Series Analysis",
+        "Applied Energy"
       ]
     },
     {
@@ -124,66 +126,6 @@
         "Applied Energy",
         "Data Science",
         "System & Software Development"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
-      ]
-    },
-    {
-      "name": "Che Ping Tsai",
-      "img": "sample.jpg",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Data Mining",
-        "Front-end design",
-        "Spatial data management"
       ]
     }
   ],
@@ -275,10 +217,7 @@
         "linkedin": "https://www.linkedin.com/in/jhe-yun-jhang-44a7801bb/",
         "homepage": null
       },
-      "expertise": [
-        "Data Mining",
-        "Backend development"
-      ]
+      "expertise": ["Data Mining", "Backend development"]
     }
   ],
   "bachelor": [
@@ -335,9 +274,7 @@
         "linkedin": null,
         "homepage": null
       },
-      "expertise": [
-        "Data Mining"
-      ]
+      "expertise": ["Data Mining"]
     },
     {
       "name": "Yu Tsung Kuo",
