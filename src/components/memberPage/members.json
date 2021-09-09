@@ -224,6 +224,17 @@
         "homepage": null
       },
       "expertise": ["Backend development"]
+    },
+    {
+      "name": "Zhe Wei Kuo",
+      "img": "ZWKuo.png",
+      "mail": "xx876543210@gmail.com",
+      "link": {
+        "github": null,
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise": ["Data Mining","Finance"]
     }
   ],
   "bachelor": [
