@@ -235,6 +235,17 @@
         "homepage": null
       },
       "expertise": ["Data Mining","Finance"]
+    },
+    {
+      "name": "Sun I Fu",
+      "img": "I-Fu.jpg",
+      "mail": "jeff77122000@gmail.com",
+      "link": {
+        "github": "https://github.com/Sun-I-Fu",
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise": [" "]
     }
   ],
   "bachelor": [
