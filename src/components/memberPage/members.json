@@ -204,6 +204,17 @@
       "expertise": ["Data Mining", "Backend development"]
     },
     {
+      "name": "Wei-Cheng Yin",
+      "img": "EvanYin.jpg",
+      "mail": "wcyin@netdb.csie.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/weicheng-yin",
+        "linkedin": "https://www.linkedin.com/in/evan-%E5%81%89%E8%AA%A0-yin-%E6%AE%B7/",
+        "homepage": null
+      },
+      "expertise": ["Front-end Development"]
+    },
+    {
       "name": "Kuan Ting Chen",
       "img": "ktchen.jpg",
       "mail": "ktchen@netdb.csie.ncku.edu.tw",
