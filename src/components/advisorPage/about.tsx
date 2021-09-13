@@ -6,7 +6,7 @@ const About: React.FC = () => (
     <div className={classNames('advisorpage-about-top-container')}>
       <div className={classNames('advisorpage-about-top-text')}>
         <h3>Kun-Ta Chuang (莊坤達)</h3>
-        <div>Assistant Professor</div>
+        <div>Associate Professor</div>
         <div>
           Tainan City, Taiwan Dept. of Computer Science and Information
           Engineering, National Cheng Kung University
@@ -27,7 +27,7 @@ const About: React.FC = () => (
     <div className={classNames('advisorpage-about-bottom-container')}>
       <h4>About me</h4>
       <p>
-        Kun-Ta Chuang currently serves as an assistant professor in Department
+        Kun-Ta Chuang currently serves as an associate professor in Department
         of Computer Science and Information Engineering in National Cheng Kung
         University.
         <br />
