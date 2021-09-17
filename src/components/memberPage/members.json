@@ -145,6 +145,22 @@
       "expertise": ["Front-end Development", "Blockchain", "Applied Energy"]
     },
     {
+      "name": "Chi-Sung Wang",
+      "img": "cswang.jpg",
+      "mail": "cswang@netdb.csie.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/ttw225",
+        "linkedin": "https://www.linkedin.com/in/chisung-wang",
+        "homepage": null
+      },
+      "expertise": [
+        "Backend Development",
+        "DevOps",
+        "AIoT",
+        "Green Blockchain"
+      ]
+    },
+    {
       "name": "Chai-Shi Chang",
       "img": "chaishi.jpg",
       "mail": "changchaishi@gmail.com",
