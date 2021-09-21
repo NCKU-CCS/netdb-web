@@ -41,7 +41,11 @@
         "linkedin": "https://www.linkedin.com/in/bohengchen/",
         "homepage": null
       },
-      "expertise": ["Data Mining", "Machine Learning", "Social Media Mining"]
+      "expertise": [
+        "Data Mining",
+        "Machine Learning",
+        "Social Media Mining"
+      ]
     },
     {
       "name": "Chun-Yin Yeh",
@@ -142,7 +146,11 @@
         "linkedin": null,
         "homepage": null
       },
-      "expertise": ["Front-end Development", "Blockchain", "Applied Energy"]
+      "expertise": [
+        "Front-end Development",
+        "Blockchain",
+        "Applied Energy"
+      ]
     },
     {
       "name": "Chi-Sung Wang",
@@ -169,7 +177,10 @@
         "linkedin": "https://www.linkedin.com/in/changchaishi/",
         "homepage": "https://www.facebook.com/changchaishi"
       },
-      "expertise": ["Backend and Mobile Development", "Cloud Computing"]
+      "expertise": [
+        "Backend and Mobile Development",
+        "Cloud Computing"
+      ]
     },
     {
       "name": "Steven Hsun-Hsiang Chen",
@@ -195,7 +206,9 @@
         "linkedin": "https://www.linkedin.com/in/%E5%AE%89%E5%96%84-%E5%8A%89-15a8701a6/",
         "homepage": "https://www.facebook.com/profile.php?id=100003327185007"
       },
-      "expertise": ["Data Mining"]
+      "expertise": [
+        "Data Mining"
+      ]
     },
     {
       "name": "Jhe-Yun Jhang",
@@ -206,7 +219,10 @@
         "linkedin": "https://www.linkedin.com/in/jhe-yun-jhang-44a7801bb/",
         "homepage": null
       },
-      "expertise": ["Data Mining", "Backend development"]
+      "expertise": [
+        "Data Mining",
+        "Backend development"
+      ]
     },
     {
       "name": "Kai-Jun Yang",
@@ -217,7 +233,10 @@
         "linkedin": "https://www.linkedin.com/in/凱駿-仰-4620101b9/",
         "homepage": null
       },
-      "expertise": ["Data Mining", "Backend development"]
+      "expertise": [
+        "Data Mining",
+        "Backend development"
+      ]
     },
     {
       "name": "Wei-Cheng Yin",
@@ -228,7 +247,9 @@
         "linkedin": "https://www.linkedin.com/in/evan-%E5%81%89%E8%AA%A0-yin-%E6%AE%B7/",
         "homepage": null
       },
-      "expertise": ["Front-end Development"]
+      "expertise": [
+        "Front-end Development"
+      ]
     },
     {
       "name": "Kuan Ting Chen",
@@ -239,7 +260,9 @@
         "linkedin": "https://www.linkedin.com/in/冠廷-陳-8b4a811b0",
         "homepage": null
       },
-      "expertise": ["Backend development"]
+      "expertise": [
+        "Backend development"
+      ]
     },
     {
       "name": "Zhe Wei Kuo",
@@ -250,7 +273,24 @@
         "linkedin": null,
         "homepage": null
       },
-      "expertise": ["Data Mining","Finance"]
+      "expertise": [
+        "Data Mining",
+        "Finance"
+      ]
+    },
+    {
+      "name": "Shao Ming Lu",
+      "img": "darren.jpg",
+      "mail": "smlu@netdb.csie.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/sasa08",
+        "linkedin": "https://www.linkedin.com/in/shaominglu/",
+        "homepage": "https://medium.com/2027-%E6%88%90%E9%95%B7%E4%BA%8B%E4%BB%B6%E7%B0%BF"
+      },
+      "expertise": [
+        "Product Management",
+        "BlockChain"
+      ]
     }
   ],
   "bachelor": [
@@ -277,7 +317,9 @@
         "linkedin": null,
         "homepage": null
       },
-      "expertise": ["Data Mining"]
+      "expertise": [
+        "Data Mining"
+      ]
     },
     {
       "name": "Yu Tsung Kuo",
@@ -288,7 +330,9 @@
         "linkedin": "https://www.linkedin.com/in/yu-tsung-kuo-57ab77176/",
         "homepage": "https://www.facebook.com/profile.php?id=100000376639656"
       },
-      "expertise": ["Front-end Development"]
+      "expertise": [
+        "Front-end Development"
+      ]
     },
     {
       "name": "I Hsin Chen",
@@ -299,7 +343,9 @@
         "linkedin": null,
         "homepage": null
       },
-      "expertise": ["Data Mining"]
+      "expertise": [
+        "Data Mining"
+      ]
     }
   ]
 }
