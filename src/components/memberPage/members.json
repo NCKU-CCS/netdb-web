@@ -291,6 +291,20 @@
         "Product Management",
         "BlockChain"
       ]
+    },
+    {
+      "name": "Shih Hsun Lin",
+      "img": "shlin.jpg",
+      "mail": "shlin@netdb.csie.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/Lin-Shih-Hsun",
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise": [
+        "Mathematics",
+        "Data Mining"
+      ]
     }
   ],
   "bachelor": [
