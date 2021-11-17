@@ -10,8 +10,6 @@ import Application from './application';
 const HomePageContainer: React.FC = () => (
   <>
     <Intro />
-    <Title text="Partnership" />
-    <Partner />
     <Title text="Research Domain" />
     <Research />
     <Title text="Application ＆ Service" />
