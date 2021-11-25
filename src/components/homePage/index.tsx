@@ -2,7 +2,6 @@ import React from 'react';
 
 import Title from './title';
 import Intro from './intro';
-import Partner from './partner';
 import Research from './research';
 import Service from './service';
 import Application from './application';
