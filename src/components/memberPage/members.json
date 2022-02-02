@@ -360,6 +360,17 @@
       "expertise": [
         "Data Mining"
       ]
+    },
+    {
+      "name": "Hsiang Ling Chang",
+      "img": "Hsiang_Ling.jpg",
+      "mail": "f74109066@gs.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/shuangling0",
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise": []
     }
   ]
 }
