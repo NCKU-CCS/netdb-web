@@ -370,7 +370,10 @@
         "linkedin": null,
         "homepage": null
       },
-      "expertise": []
+      "expertise": [
+        "Front-end Development",
+        "BlockChain"
+      ]
     }
   ]
 }
