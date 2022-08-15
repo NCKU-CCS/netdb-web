@@ -374,6 +374,20 @@
         "Front-end Development",
         "Blockchain"
       ]
+    },
+    {
+      "name": "He Teng Cao",
+      "img": "htcao.jpg",
+      "mail": "whitepepper4140@gmail.com",
+      "link": {
+        "github": "https://github.com/HzTans",
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise": [
+        "Object Recognition",
+        "Backend development"
+      ]
     }
   ]
 }
