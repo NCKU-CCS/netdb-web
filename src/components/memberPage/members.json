@@ -123,52 +123,6 @@
   ],
   "master": [
     {
-      "name": "Po-Chun Lu",
-      "img": "pochun.jpg",
-      "mail": "pclu@netdb.csie.ncku.edu.tw",
-      "link": {
-        "github": "https://github.com/Sirius207",
-        "linkedin": "https://www.linkedin.com/in/pochunlu",
-        "homepage": null
-      },
-      "expertise": [
-        "Web Development",
-        "Cloud computing",
-        "Spatial Temporal Data Mining"
-      ]
-    },
-    {
-      "name": "Yan-Ju Chen",
-      "img": "Oliver_Chen.jpg",
-      "mail": "yjchen@netdb.csie.ncku.edu.tw",
-      "link": {
-        "github": "https://github.com/coliver0221",
-        "linkedin": null,
-        "homepage": null
-      },
-      "expertise": [
-        "Front-end Development",
-        "Blockchain",
-        "Applied Energy"
-      ]
-    },
-    {
-      "name": "Chi-Sung Wang",
-      "img": "cswang.jpg",
-      "mail": "cswang@netdb.csie.ncku.edu.tw",
-      "link": {
-        "github": "https://github.com/ttw225",
-        "linkedin": "https://www.linkedin.com/in/chisung-wang",
-        "homepage": null
-      },
-      "expertise": [
-        "Backend Development",
-        "DevOps",
-        "AIoT",
-        "Green Blockchain"
-      ]
-    },
-    {
       "name": "Chai-Shi Chang",
       "img": "chaishi.jpg",
       "mail": "changchaishi@gmail.com",
@@ -309,20 +263,6 @@
   ],
   "bachelor": [
     {
-      "name": "Che Ping Tsai",
-      "img": "cheping.png",
-      "mail": "kingkazma0112305@gmail.com",
-      "link": {
-        "github": "https://github.com/curry0622",
-        "linkedin": "https://www.linkedin.com/in/%E5%93%B2%E5%B9%B3-%E8%94%A1-9a97261a3/",
-        "homepage": "https://www.facebook.com/profile.php?id=100006457867592"
-      },
-      "expertise": [
-        "Front-end Development",
-        "Contributed to NetDB Official Website"
-      ]
-    },
-    {
       "name": "Rong Chao",
       "img": "roychao.jpeg",
       "mail": "f14071075@gs.ncku.edu.tw",
@@ -333,19 +273,6 @@
       },
       "expertise": [
         "Data Mining"
-      ]
-    },
-    {
-      "name": "Yu Tsung Kuo",
-      "img": "kuouu.png",
-      "mail": "erickuo5124@gmail.com",
-      "link": {
-        "github": "https://github.com/erickuo5124",
-        "linkedin": "https://www.linkedin.com/in/yu-tsung-kuo-57ab77176/",
-        "homepage": "https://www.facebook.com/profile.php?id=100000376639656"
-      },
-      "expertise": [
-        "Front-end Development"
       ]
     },
     {
