@@ -374,6 +374,20 @@
         "Front-end Development",
         "Blockchain"
       ]
+    },
+    {
+      "name": "Yi Wen Cai",
+      "img": "yiwen.jpg",
+      "mail": "i34096022@gs.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/Bonnie-entre",
+        "linkedin": "https://www.linkedin.com/in/yi-wen-cai-1722031b6",
+        "homepage": "https://www.facebook.com/smile.change.75/"
+      },
+      "expertise": [
+        "Front-end Development",
+        "Blockchain"
+      ]
     }
   ]
 }
