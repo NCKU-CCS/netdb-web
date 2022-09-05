@@ -273,6 +273,17 @@
         "Object Recognition",
         "Backend development"
       ]
+    },
+    {
+        "name": "Yi Tung Tsai",
+        "img": "BecksTsai.jpg",
+        "mail": "yttsai@netdb.csie.ncku.edu.tw",
+        "link": {
+          "github": "https://github.com/BecksTsai",
+          "linkedin": null,
+          "homepage": null
+        },
+        "expertise": []
     }
   ],
   "bachelor": [
