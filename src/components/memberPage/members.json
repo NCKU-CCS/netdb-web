@@ -273,6 +273,20 @@
         "Object Recognition",
         "Backend development"
       ]
+    },
+    {
+      "name": "Po Hsiang Fang",
+      "img": "Po_Hsiang_Fang.jpg",
+      "mail": "barryfang0531@gmail.com",
+      "link": {
+        "github": "https://github.com/baljeet0531",
+        "linkedin": "https://www.linkedin.com/in/po-hsiang-fang-109a96247/",
+        "homepage": null
+      },
+      "expertise": [
+        "Front-end Development",
+        "Backend development"
+      ]
     }
   ],
   "bachelor": [
