@@ -329,6 +329,20 @@
         "Front-end Development",
         "Blockchain"
       ]
+    },
+    {
+      "name": "Dai-Rong Han",
+      "img": "dairong.jpg",
+      "mail": "f74096310@gs.ncku.edu.tw",
+      "link": {
+        "github": "https://github.com/daironghan",
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise": [
+        "Front-end Development",
+        "Blockchain"
+      ]
     }
   ]
 }
