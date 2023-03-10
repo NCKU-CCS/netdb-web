@@ -300,7 +300,20 @@
         "expertise": [
             "Data Mining"
         ]
-      }
+      },
+      {
+      "name": "Yu Hsiang Chang",
+      "img": "YuHsiang.JPG",
+      "mail": "davidqxzz123@gmail.com",
+      "link": {
+        "github": "https://github.com/Subaru-Gastraea",
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise": [
+        "Backend Development"
+      ]
+    }
   ],
   "bachelor": [
     {
