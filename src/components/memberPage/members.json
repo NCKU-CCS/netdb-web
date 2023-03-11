@@ -313,6 +313,20 @@
       "expertise": [
         "Backend Development"
       ]
+    },
+    {
+      "name": "Yi Ting Wu",
+      "img": "YiTingWu.jpg",
+      "mail": "yitingwu.1030@gmail.com",
+      "link": {
+        "github": "https://github.com/YiTing0622",
+        "linkedin": null,
+        "homepage": null
+      },
+      "expertise": [
+        "Backend Development",
+        "Software Engineering"
+      ]
     }
   ],
   "bachelor": [
